@@ -1,12 +1,27 @@
 ---
 title: "VBO Wiki"
 ---
-## Wiki Information 
+## Project Description
 
+**VBO Wiki** is a personal technical encyclopedia created by **Vitaliy Bondarenko**, bringing together knowledge, notes, and practical examples across modern programming languages and technologies.  
+It serves both as internal documentation and as a structured resource for continuous learning and professional development.
 
+## Main Sections
+
+- **Java Development** — Core Java, Spring Framework, REST APIs, Security, Databases, and DevOps.
+- **Python** — Scripting, automation, data processing, and machine learning.
+- **JavaScript & TypeScript** — Frontend development, API integration, and modern frameworks.
+- **HTML & CSS** — Layouts, responsive design, and UI patterns.
+- **Dart & Flutter** — Cross-platform mobile app development.
+- **Development Tools** — Docker, Git, CI/CD, infrastructure, and monitoring.
+
+## Purpose
+
+The goal of VBO Wiki is to create a **unified knowledge base** that helps accelerate development, improve code quality, and simplify technology adoption.  
+It contains not only reference materials but also **real-world examples** from professional projects — from Delphi-based ERP systems to Spring Boot and Python microservices.
 ## Contacts
 
-Sites:
-1. https://vibondarenko.github.io/
-2. https://vbodev.github.io/
-3. https://linkedin.com/in/vibondarenko/
+- 📞 +43 681 81 29 27 82
+- 🌐 https://vibondarenko.github.io/
+- 🌐 https://vbodev.github.io/
+- 🌐 https://linkedin.com/in/vibondarenko/
