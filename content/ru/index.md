@@ -1,25 +1,23 @@
 ---
-title: "VBO Wiki"
+title: VBO Wiki RU
 ---
-## Project Description
+## Описание проекта
 
-**VBO Wiki** is a personal technical encyclopedia created by **Vitaliy Bondarenko**, bringing together knowledge, notes, and practical examples across modern programming languages and technologies.  
-It serves both as internal documentation and as a structured resource for continuous learning and professional development.
+**VBO Wiki** это личная техническая энциклопедия, созданная **Vitaliy Bondarenko**, объединяющая знания, заметки и практические примеры по современным языкам программирования и технологиям.
+Она служит как внутренней документацией, так и структурированным ресурсом для непрерывного обучения и профессионального развития.
+## Основные разделы
 
-## Main Sections
+- **AI** - исскуственный интелект
+- **Development Languages** - языки программирования
+- **Development Methodology** - методологии разработки
+- **Development Tools** - инструменты разработки
+- **Github Projects (AI)** - различные интересные GitHub проекты относящиеся к AI и не только 
+- **Private** - приватныее записи (не доступны онлайн)
+## Цель
 
-- **Java Development** — Core Java, Spring Framework, REST APIs, Security, Databases, and DevOps.
-- **Python** — Scripting, automation, data processing, and machine learning.
-- **JavaScript & TypeScript** — Frontend development, API integration, and modern frameworks.
-- **HTML & CSS** — Layouts, responsive design, and UI patterns.
-- **Dart & Flutter** — Cross-platform mobile app development.
-- **Development Tools** — Docker, Git, CI/CD, infrastructure, and monitoring.
-
-## Purpose
-
-The goal of VBO Wiki is to create a **unified knowledge base** that helps accelerate development, improve code quality, and simplify technology adoption.  
-It contains not only reference materials but also **real-world examples** from professional projects — from Delphi-based ERP systems to Spring Boot and Python microservices.
-## Contacts
+Цель VBO Wiki — создать единую базу знаний, которая помогает ускорить разработку, повысить качество кода и упростить освоение технологий.
+Она содержит не только справочные материалы, но и практические примеры из реальных профессиональных проектов — от ERP-систем на Delphi до микросервисов на Spring Boot и Python.
+## Контакты
 
 - 📞 +43 681 81 29 27 82
 - 🌐 https://vibondarenko.github.io/
