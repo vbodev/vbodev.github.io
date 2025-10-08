@@ -10,7 +10,8 @@ title: Github Projects List (AI)
 | [LocalAI](https://github.com/mudler/LocalAI)                     | LocalAI                                                                                       |
 | [Litgpt:](https://github.com/Lightning-AI/litgpt)                | Проект, представляющий более 20 LLM.                                                          |
 | [Letta (formerly MemGPT)](https://github.com/letta-ai/letta)     | Фреймворк для создания сервисов на основе больших языковых моделей (LLM) с поддержкой памяти. |
-|                                                                  |                                                                                               |
+
+
 ## 2. Application
 
 | Название и ссылка                                                                     | Описание                                                        |
@@ -30,14 +31,19 @@ title: Github Projects List (AI)
 | [Go2RTC.](https://github.com/AlexxIT/go2rtc)                                                    | Потоковая передача изображения с камеры.                                                                  |
 | [Superstreamer](https://github.com/matvp91/superstreamer)                                       | Обработка видео. Онлайн стриминг.                                                                         |
 | [Spotube](https://github.com/KRTirtho/spotube)                                                  | Кроссплатформенный клиент Spotify (Spotify. YouTube. Piped.video)                                         |
-| [Voice-Pro: Gradio WebUI](https://github.com/abus-aikorea/voice-pro)                            | Text to Speach, Translation. Transcription. Gradio WebUI for whisper, faster-whisper, whisper-timestamped |
+
 ## 4. Audio
 
-| Название и ссылка                                                  | Описание               |
-| ------------------------------------------------------------------ | ---------------------- |
-| [Ichigo](https://github.com/homebrewltd/ichigo)                    | Локальный голосовой AI |
-| [LibreTranslate](https://github.com/LibreTranslate/LibreTranslate) | API машинного перевода |
-| [WhisperX](https://github.com/m-bain/whisperX)                     | Распознавание голоса.  |
+| Название и ссылка                                                         | Описание                                                                                                                                                          |
+| ------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Ichigo](https://github.com/homebrewltd/ichigo)                           | Локальный голосовой AI                                                                                                                                            |
+| [LibreTranslate](https://github.com/LibreTranslate/LibreTranslate)        | API машинного перевода                                                                                                                                            |
+| [OpenAI Whisper](https://github.com/openai/whisper)                       | Официальная модель от OpenAI. Высокая точность, поддержка >90 языков, но требует мощного GPU. Подходит для оффлайн-распознавания и перевода.                      |
+| [Whisper.cpp](https://github.com/ggml-org/whisper.cpp?tab=readme-ov-file) | Оптимизированная C/C++-реализация Whisper. Работает быстро даже на CPU без GPU. Идеальна для встроенных систем и оффлайн-устройств.                               |
+| [Faster Whisper](https://github.com/SYSTRAN/faster-whisper)               | Переписанная на CTranslate2 версия Whisper. В 2–4 раза быстрее оригинала, поддерживает GPU и CPU, легко интегрируется в Python-проекты.                           |
+| [WhisperX](https://github.com/m-bain/whisperX)                            | Расширение Whisper с автоматической синхронизацией субтитров (alignment) и разделением голосов по спикерам (diarization). Отлично подходит для видео и подкастов. |
+| [VOSK Speech Recognition Toolkit](https://github.com/alphacep/vosk)       | Лёгкая, оффлайн-библиотека. Быстрая, мало требует ресурсов, поддерживает десятки языков и интеграцию в мобильные и десктоп-приложения.                            |
+| [Voice-Pro: Gradio WebUI](https://github.com/abus-aikorea/voice-pro)      | Text to Speach, Translation. Transcription. Gradio WebUI for whisper, faster-whisper, whisper-timestamped                                                         |
 ## 5. Pictures
 
 | Название и ссылка                                              | Описание                                     |
@@ -114,8 +120,4 @@ title: Github Projects List (AI)
 | [All Hands AI/OpenHands](https://github.com/All-Hands-AI/OpenHands)                    | OpenHands: Code Less, Make More                                                                                                                                                |
 | [TrailBaseIO](https://github.com/trailbaseio/trailbase)                                | A blazingly fast, open-source application server with type-safe APIs, built-in JS/ES6/TS runtime, realtime, auth, and admin UI built on Rust, SQLite & V8.                     |
 | [NovaSky-AI/SkyThought: Sky-T1](https://github.com/NovaSky-AI/SkyThought)              | Train your own O1 preview model                                                                                                                                                |
-|                                                                                        |                                                                                                                                                                                |
-|                                                                                        |                                                                                                                                                                                |
-|                                                                                        |                                                                                                                                                                                |
-|                                                                                        |                                                                                                                                                                                |
 |                                                                                        |                                                                                                                                                                                |
