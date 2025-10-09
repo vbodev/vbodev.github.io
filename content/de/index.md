@@ -1,5 +1,5 @@
 ---
-title: "VBO Wiki"
+title: VBO Wiki DE
 ---
 ## Projektbeschreibung
 
