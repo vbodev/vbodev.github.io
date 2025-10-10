@@ -1,5 +1,5 @@
 ---
-title: Anwendungsfälle und Beispiele
+title: Use case and examples
 ---
 ## Szenario der Nutzung
 ### 1. Aufgaben im System
