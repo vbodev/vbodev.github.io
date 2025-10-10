@@ -5,7 +5,7 @@ title: Github Projects List (AI)
 
 | Название и ссылка                                                | Описание                                                                                      |
 | ---------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| **[Typebot](https://github.com/baptisteArno/typebot.io)          | Конструктор чат-ботов.                                                                        |
+| [Typebot](https://github.com/baptisteArno/typebot.io)          | Конструктор чат-ботов.                                                                        |
 | [OpenAI Gradio App](https://github.com/gradio-app/openai-gradio) | Создание пользовательских интерфейсов.                                                        |
 | [LocalAI](https://github.com/mudler/LocalAI)                     | LocalAI                                                                                       |
 | [Litgpt:](https://github.com/Lightning-AI/litgpt)                | Проект, представляющий более 20 LLM.                                                          |
