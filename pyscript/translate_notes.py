@@ -45,9 +45,15 @@ class ObsidianTranslator:
         print(f"🤖 Model: {self.model_name}")
         
     def get_md_files(self) -> List[Path]:
-        """Get a list of all .md files in the source folder"""
-        md_files = list(self.source_dir.rglob("*.md"))
-        print(f"📝 Found {len(md_files)} .md files")
+        """Get a list of all .md files in the source folder, excluding private folder"""
+        md_files = []
+        for file in self.source_dir.rglob("*.md"):
+            # Skip files in 'private' folder
+            if 'private' in file.parts:
+                continue
+            md_files.append(file)
+        
+        print(f"📝 Found {len(md_files)} .md files (excluding private folder)")
         return md_files
     
     def parse_markdown(self, content: str) -> Tuple[Dict, str]:
