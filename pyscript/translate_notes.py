@@ -163,7 +163,7 @@ Translation to {lang_name}:"""
                     "prompt": prompt,
                     "stream": False,
                     "options": {
-                        "temperature": 0.2,
+                        "temperature": 0.1,
                         "max_tokens": 50
                     }
                 },

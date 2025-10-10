@@ -1,6 +1,7 @@
 ---
 title: VBO Wiki DE
 ---
+[[ru/index|RU]] | [[en/index|EN]] | [[de/index| DE]]
 ## Projektbeschreibung
 
 **VBO Wiki** ist eine persönliche technische Enzyklopädie, die von **Vitaliy Bondarenko** erstellt wurde und Wissen, Notizen und praktische Beispiele aus modernen Programmiersprachen und Technologien zusammenführt.  

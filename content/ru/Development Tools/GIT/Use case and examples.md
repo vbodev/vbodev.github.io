@@ -224,22 +224,20 @@ main ───A──B──C─────────●──────●
 - Второй, кто делает merge, получит **merge** **conflict**.
 - Решается так:
 
+```bash
 git fetch origin
-
 git rebase origin/main   # или git merge origin/main
-
+```
 # решаем конфликты
 
+```bash
 git add .
-
 git rebase --continue
-
 git push origin feature/TASK-102-payments
-
+```
 После этого PR снова готов к слиянию.
 
 📌 **Итого:**
-
 - Каждая задача = отдельная ветка = отдельный PR.
 - Ветки живут недолго (1–5 дней).
 - В main попадает только проверенный код.
