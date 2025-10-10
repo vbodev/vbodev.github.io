@@ -17,6 +17,7 @@ Sie dient sowohl als interne Dokumentation als auch als strukturierte Ressource 
 
 Das Ziel von VBO Wiki ist es, eine **einheitliche Wissensbasis** zu schaffen, die dazu beiträgt, die Entwicklung zu beschleunigen, die Codequalität zu verbessern und die Einführung neuer Technologien zu erleichtern.  
 Sie enthält nicht nur Referenzmaterialien, sondern auch **Praxisbeispiele** aus professionellen Projekten – von Delphi-basierten ERP-Systemen bis hin zu Spring-Boot- und Python-Mikrodiensten.
+
 ## Contacts
 
 - 📞 +43 681 81 29 27 82
