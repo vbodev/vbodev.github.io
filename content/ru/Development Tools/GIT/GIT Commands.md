@@ -1,6 +1,7 @@
 ---
 title: GIT Commands
 ---
+[[ru/Development Tools/GIT/GIT Commands|RU]] | [[en/Development Tools/GIT/GIT Commands|EN]] | [[de/Development Tools/GIT/GIT Commands|DE]]
 
 | **Command**                                                                                                                                                                 | **Description**                                                           |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
