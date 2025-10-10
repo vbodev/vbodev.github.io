@@ -1,6 +1,7 @@
 ---
 title: Docker
 ---
+[[ru/Development Tools/GIT/Docker|RU]] | [[en/Development Tools/GIT/Docker|EN]] | [[de/Development Tools/GIT/Docker|DE]]
 ## 1) Basic Concepts
 - **Image (образ)** — filesystem template + metadata. Layered structure (union FS).
 - **Container (контейнер)** — a running instance of an image (process + isolation).
