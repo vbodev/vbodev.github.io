@@ -1,3 +1,34 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+.red { color: #e74c3c; }
+.green { color: #27ae60; }
+.blue { color: #2980b9; }
+.brown { color: #ff8000; }
+
+.gray {color: #cccccc; }
+.rose {color: #ffd7d7; }
+.bluesm {color: #729fcf; }
+.greensm {color: #77bc65; }
+
+
+.red-bg { background-color: #e74c3c; color: white; padding: 2px 4px; border-radius: 3px; }
+.green-bg { background-color: #27ae60; color: white; padding: 2px 4px; border-radius: 3px; }
+.blue-bg { background-color: #2980b9; color: white; padding: 2px 4px; border-radius: 3px; }
+.brown-bg { background-color: #ff8000; color: white; padding: 2px 4px; border-radius: 3px; }
+
+.gray-bg { background-color: #cccccc; color: white; padding: 2px 4px; border-radius: 3px; }
+.rose-bg { background-color: #ffd7d7; color: white; padding: 2px 4px; border-radius: 3px; }
+.bluesm-bg { background-color: #729fcf; color: white; padding: 2px 4px; border-radius: 3px; }
+.greensm-bg { background-color: #77bc65; color: white; padding: 2px 4px; border-radius: 3px; }
+
+
+.red-bold { color: #e74c3c; font-weight: bold; }
+.green-bold { color: #27ae60; font-weight: bold; }
+.blue-bold { color: #2980b9; font-weight: bold; }
+.brown-bold { color: #ff8000; font-weight: bold; }
+
+.gray-bold {color: #cccccc; font-weight: bold; }
+.rose-bold {color: #ffd7d7; font-weight: bold; }
+.bluesm-bold {color: #729fcf; font-weight: bold; }
+.greensm-bold {color: #77bc65; font-weight: bold; }
