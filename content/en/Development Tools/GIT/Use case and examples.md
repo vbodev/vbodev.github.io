@@ -1,5 +1,5 @@
 ---
-title: Use Case Scenario and Examples
+title: Use case and examples
 ---
 ## Use Case Scenario
 ### 1. Tasks in the System
