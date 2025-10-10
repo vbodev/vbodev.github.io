@@ -11,8 +11,6 @@ title: Github Projects List (AI)
 | [LocalAI](https://github.com/mudler/LocalAI)                     | LocalAI                                                                                       |
 | [Litgpt:](https://github.com/Lightning-AI/litgpt)                | Проект, представляющий более 20 LLM.                                                          |
 | [Letta (formerly MemGPT)](https://github.com/letta-ai/letta)     | Фреймворк для создания сервисов на основе больших языковых моделей (LLM) с поддержкой памяти. |
-
-
 ## 2. Application
 
 | Название и ссылка                                                                     | Описание                                                        |
@@ -32,7 +30,6 @@ title: Github Projects List (AI)
 | [Go2RTC.](https://github.com/AlexxIT/go2rtc)                                                    | Потоковая передача изображения с камеры.                                                                  |
 | [Superstreamer](https://github.com/matvp91/superstreamer)                                       | Обработка видео. Онлайн стриминг.                                                                         |
 | [Spotube](https://github.com/KRTirtho/spotube)                                                  | Кроссплатформенный клиент Spotify (Spotify. YouTube. Piped.video)                                         |
-
 ## 4. Audio
 
 | Название и ссылка                                                         | Описание                                                                                                                                                          |
