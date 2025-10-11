@@ -32,3 +32,9 @@
 .rose-bold {color: #ffd7d7; font-weight: bold; }
 .bluesm-bold {color: #729fcf; font-weight: bold; }
 .greensm-bold {color: #77bc65; font-weight: bold; }
+
+.page, .container, main {
+  max-width: 1400px !important;
+  margin: 0 auto !important;
+  padding: 0 2rem !important;
+}
