@@ -1,7 +1,7 @@
 @use "./base.scss";
 
 // put your custom CSS here!
-.red { color: #e74c3c; }
+.red { color: #ff0000; }
 .green { color: #27ae60; }
 .blue { color: #2980b9; }
 .brown { color: #ff8000; }
@@ -26,7 +26,7 @@
 .greensm-bg { background-color: #77bc65; color: white; padding: 2px 4px; border-radius: 3px; }
 
 
-.red-bold { color: #e74c3c; font-weight: bold; }
+.red-bold { color: #ff0000; font-weight: bold; }
 .green-bold { color: #27ae60; font-weight: bold; }
 .blue-bold { color: #2980b9; font-weight: bold; }
 .brown-bold { color: #ff8000; font-weight: bold; }
@@ -36,3 +36,9 @@
 .rose-bold {color: #fc6b6b; font-weight: bold; }
 .bluesm-bold {color: #528fce; font-weight: bold; }
 .greensm-bold {color: #77bc65; font-weight: bold; }
+
+
+.underline { text-decoration: underline; }
+
+.italic	{ font-style: italic; }
+.bold { font-weight: bold; }
