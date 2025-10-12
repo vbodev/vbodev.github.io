@@ -1,7 +1,7 @@
 ---
 title: 1 Sprechen 3 Dialogs
 ---
-## 1. Dialog (Gespräch). Reiseplanung
+### 1. Dialog (Gespräch). Reiseplanung
 
 - <span class="blue-bold">Person1:</span> Hallo! Wie geht es dir?
 - <span class="green-bold">Person2:</span> Hallo! Mir geht es gut, danke. Wie findest du die Idee, **_dass_** wir nach Salzburg fahren. Hast du Lust mitkommen?
@@ -13,7 +13,7 @@ title: 1 Sprechen 3 Dialogs
 - <span class="green-bold">Person2:</span> Ja, das denke ich auch. Ein zentral gelegenes Hotel wäre praktisch, **_damit_** wir leicht zu den _Sehenswürdigkeiten_ kommen.
 - <span class="blue-bold">Person1:</span> Super! Lass uns die genauen Details klären und dann buchen. Ich freue mich schon auf das Wochenende in Salzburg!
 - <span class="green-bold">Person2:</span> Ich auch! Es wird auf jeden Fall eine tolle (schöne) Zeit.
-## 2. Dialog (Gespräch) Internationale Festivalplanung danach Deutschkurs.
+### 2. Dialog (Gespräch) Internationale Festivalplanung danach Deutschkurs.
 
 - <span class="red-bold">Person1:</span>: Hallo! Wie geht es dir?
 - <span class="brown-bold">Person2:</span> Hallo! Mir geht es gut, danke. Ich denke, eine internationale Fest danach Deutschkurs _zu_ planen. Hast du Lust mitzumachen?
@@ -43,7 +43,7 @@ title: 1 Sprechen 3 Dialogs
 - <span class="green-bold">Person2:</span> Wir sollten einen Tag wählen, vielleicht am Wochenende, **_wann_** Leute viele Zeit haben. Und der zentrale Platz vor dem Rathaus könnte ein guter Ort sein.
 - <span class="blue-bold">Person1:</span> Ich kann mit der Produktion von Plakaten und Bannern helfen. Lass uns zusammenarbeiten, **_um_** eine gute Demonstration **_zu_** planen.
 - <span class="green-bold">Person2:</span> Das klingt super! Vielen Dank für deine Hilfe. Gemeinsam werden wir eine positive Botschaft der Solidarität senden.
-## 4. Dialog (Gespräch) Planung einer Spendenaktion
+### 4. Dialog (Gespräch) Planung einer Spendenaktion
 
 - <span class="red-bold">Person1:</span> Hallo! Wie geht es dir?
 - <span class="brown-bold">Person2:</span> Hallo! Mir geht es gut, danke. Ich denke nach, eine Spendenaktion **_zu_** organisieren. Hast du Interesse, teilzunehmen?
