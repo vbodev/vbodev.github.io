@@ -4,49 +4,48 @@ title: 2 Schreiben 1 EMails
 
 **_Informelles_**
 
-Liebe(r) … , es geht mir sehr gut.
-Ich habe lange nichts von dir gehört. Wie geht es dir? Viel   Dank für deine Antwort. Ich freue mich immer über Post von dir. Viel Dank   für deine Einladung. Ich freue mich dich **_zu_** hören. Schön dich **_zu_** hören. Herzlichen Glückwunsch zu deiner … .
-Ich habe eine Frage: … . Noch eine Frage … . Ach ja, noch etwas: … .
-Liebe Grüße, …
+1. Liebe(r) … , es geht mir sehr gut.
+2. Ich habe lange nichts von dir gehört. Wie geht es dir? Viel Dank für deine Antwort. Ich freue mich immer über Post von dir. Viel Dank   für deine Einladung. Ich freue mich dich **_zu_** hören. Schön dich **_zu_** hören. Herzlichen Glückwunsch zu deiner … .
+3. Ich habe eine Frage: … . Noch eine Frage … . Ach ja, noch etwas: … .
+4. Liebe Grüße, …
 
 **_Formelles_**
 
-**1.**
-	Sehr geehrte(r) Frau … (Herr …) / Sehr geehrte Damen und Herren,
+**1.** Sehr geehrte(r) Frau … (Herr …) / Sehr geehrte Damen und Herren,
 
 **2.**
-	hiermit möchte ich Sie darüber informieren, **_dass_** …
-	hiermit möchte ich Ihnen mitteilen, **_dass_** …
-	hiermit möchte ich mich auf die Stelle der Softwareentwickler bewerben.
-	hiermit möchte ich Sie um die Kostenübernahme für meinen Deutschkurs bitten
-	hiermit möchte ich meine Mitgliedschaft in Ihrem Fitnessstudio fristlos zum 01.07.2023 kündigen
-	Es wäre schön, **_wenn_** Sie mir ein paar Informationen zuschicken könnten.
-	Ich würde gerne wissen, **_wie_** die Öffnungszeiten vom Fundbüro sind?
-	Könnten Sie mir bitte mitteilen, …
-	Mich interessiert auch, **_welche_** andere Informationen über mich ich zuschicken muss (mitteilen kann).
+1) hiermit möchte ich Sie darüber informieren, **_dass_** …
+2) hiermit möchte ich Ihnen mitteilen, **_dass_** …
+3) hiermit möchte ich mich auf die Stelle der Softwareentwickler bewerben.
+4) hiermit möchte ich Sie um die Kostenübernahme für meinen Deutschkurs bitten
+5) hiermit möchte ich meine Mitgliedschaft in Ihrem Fitnessstudio fristlos zum 01.07.2023 kündigen
+6) Es wäre schön, **_wenn_** Sie mir ein paar Informationen zuschicken könnten.
+7) Ich würde gerne wissen, **_wie_** die Öffnungszeiten vom Fundbüro sind?
+8)	Könnten Sie mir bitte mitteilen, …
+9)	Mich interessiert auch, **_welche_** andere Informationen über mich ich zuschicken muss (mitteilen kann).
 
 **3.**
-	Vielen Dank für Ihre Antwort.
-	Vielen Dank im Voraus für Ihre Antwort.
-	Ich freue mich auf Ihre Antwort.
-	Ich würde mich freuen, von Ihnen **_zu_** hören.
-	Sie können mich sowohl unter Telefonnummer +4301 **_als_** **_auch_** unter E-Mail-Adresse … erreichen
-	Am besten erreichen Sie mich unter der Woche unter Telefonnummer: +4301.
+1)	Vielen Dank für Ihre Antwort.
+2) Vielen Dank im Voraus für Ihre Antwort.
+3)	Ich freue mich auf Ihre Antwort.
+4)	Ich würde mich freuen, von Ihnen **_zu_** hören.
+5)	Sie können mich sowohl unter Telefonnummer +4301 **_als_** **_auch_** unter E-Mail-Adresse … erreichen
+6)	Am besten erreichen Sie mich unter der Woche unter Telefonnummer: +4301.
 
 **4.** 
-	Mit freundlichen Grüßen … . Liebe(r) Grüße …
-	Ich schreibe Ihnen, weil … (Я пишу Вам, потому что … )
-	Ich beziehe mich auf Ihre Mitteilung vom … (Я ссылаюсь на Ваше сообщение от)
-	Ich wende mich an Sie, weil … (Я обращаюсь к Вам, потому что …)
-	Ich möchte mich nach weiteren Informationen über … erkundigen (Я хотел бы узнать дополнительную информацию о …)
-	Ich möchte mich offiziell beschweren, weil … (Я хотел бы официально пожаловаться, потому что …)
-	Ich interessiere mich für … (Я интересуюсь …)
-	Ich habe ein Problem und bitte Sie um Ihre Hilfe … (У меня есть проблема, и я прошу Вас о помощи...)
-	Ich möchte einen Termin stornieren/absagen …  (Я хочу термин отменить …)
-	Ich würde gerne einen neuen Termin vereinbaren … (Я бы хотел новый термин назначить …)
-	Vielen Dank im Voraus für Ihre Hilfe/Ihre Antwort (Большое спасибо заранее за Вашу помощь/ответ…)
-	Ich danke Ihnen im Voraus (Я благодарю Вас заранее …)
-	Ich wäre Ihnen für schnelle Antwort/Rückmeldung sehr dankbar (Я был бы Вам за быстрый ответ/отклик очень благодарен)
+1)	Mit freundlichen Grüßen … . Liebe(r) Grüße …
+2)	Ich schreibe Ihnen, weil … (<span class="green">Я пишу Вам, потому что …</span>)
+3)	Ich beziehe mich auf Ihre Mitteilung vom … (<span class="green">Я ссылаюсь на Ваше сообщение от</span>)
+4)	Ich wende mich an Sie, weil … (<span class="green">Я обращаюсь к Вам, потому что …</span>)
+5)	Ich möchte mich nach weiteren Informationen über … erkundigen (<span class="green">Я хотел бы узнать дополнительную информацию о …</span>)
+6)	Ich möchte mich offiziell beschweren, weil … (<span class="green">Я хотел бы официально пожаловаться, потому что …</span>)
+7)	Ich interessiere mich für … (<span class="green">Я интересуюсь …</span>)
+8)	Ich habe ein Problem und bitte Sie um Ihre Hilfe … (<span class="green">У меня есть проблема, и я прошу Вас о помощи...</span>)
+9)	Ich möchte einen Termin stornieren/absagen …  (<span class="green">Я хочу термин отменить …</span>)
+10) Ich würde gerne einen neuen Termin vereinbaren … (<span class="green">Я бы хотел новый термин назначить …</span>)
+11) Vielen Dank im Voraus für Ihre Hilfe/Ihre Antwort (<span class="green">Большое спасибо заранее за Вашу помощь/ответ…</span>)
+12) Ich danke Ihnen im Voraus (<span class="green">Я благодарю Вас заранее …</span>)
+13) Ich wäre Ihnen für schnelle Antwort/Rückmeldung sehr dankbar (<span class="green">Я был бы Вам за быстрый ответ/отклик очень благодарен</span>)
 
 **EMAIL B1**
 **1. Email (Mieten Wohnung)**
