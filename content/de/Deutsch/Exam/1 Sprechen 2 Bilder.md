@@ -4,6 +4,7 @@ title: 1 Sprechen 2 Bilder
 ## **Bild 1**
 
 ![[de_image_desc_1.jpg|400x300]]
+
 Auf dem Bild sehe ich eine Gemäldegalerie oder Kunstgalerie und in der Mitte eine junge stehende Frau. Im Hintergrund hängen an den Wänden mehrere Gemälde. Auf zwei Gemälden sind Blumen in Vasen dargestellt, **_die_** auf Tischen stehen. Auf dem dritten Gemälde ist ein Felsen im Meer dargestellt. Im Vordergrund steht eine Frau, die einen langen weißen (cremefarbenen) Pullover und schwarze Leggings (Hosen) trägt. Sie steht da und betrachtet ein Gemälde mit Sonnenblumen und denkt über etwas nach.
 #### **Überblick.**
 Hier ist ein Raum mit Bildern an den Wänden zu sehen. In der Mitte steht eine junge Frau und betrachtet das Bild mit den Sonnenblumen. Ich vermute, sie ist in einem Museum oder in einer Kunstgalerie.
