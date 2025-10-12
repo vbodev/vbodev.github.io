@@ -42,3 +42,14 @@
 
 .italic	{ font-style: italic; }
 .bold { font-weight: bold; }
+
+:root {
+  /* Базовый размер шрифта на сайте */
+  font-size: 18px; /* например, было 16px, стало чуть крупнее */
+}
+
+/* Можно отдельно увеличить текст контента */
+body, .content {
+  font-size: 1rem; /* 1rem = значение из :root */
+  line-height: 1.6;
+}
