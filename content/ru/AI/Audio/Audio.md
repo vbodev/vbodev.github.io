@@ -1,7 +1,7 @@
 ---
 title: "Audio"
 ---
-[[ru/AI/Text/Task Templates|RU]] | [[en/AI/Text/Task Templates|EN]] | [[de/AI/Text/Task Templates|DE]]
+[[ru/AI/Audio/Audio|RU]] | [[en/AI/Audio/Audio|EN]] | [[de//AI/Audio/Audio|DE]]
 
 ## 🧠 1. **OpenAI Whisper (оригинал)**
 
