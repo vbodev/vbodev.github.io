@@ -3,6 +3,8 @@ title: GIT Commands
 ---
 [[ru/Development Tools/GIT/GIT Commands|RU]] | [[en/Development Tools/GIT/GIT Commands|EN]] | [[de/Development Tools/GIT/GIT Commands|DE]]
 
+#git #commands 
+
 | **Command**                                                                                                                                                                 | **Description**                                                           |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | git init                                                                                                                                                                    | инициализация                                                             |
@@ -23,5 +25,3 @@ title: GIT Commands
 | git push origin master                                                                                                                                                      | Аналогично предыдущему, но делается пуш только ветки master               |
 | git push origin HEAD                                                                                                                                                        | Запушить текущую ветку, не вводя целиком ее название                      |
 | git pull origin                                                                                                                                                             | Замерджить все ветки с удаленного репозитория                             |
-
-
