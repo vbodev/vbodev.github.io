@@ -2,6 +2,8 @@
 title: Github Projects List (AI)
 ---
 [[ru/Github Projects (AI)/Github Projects List (AI)|RU]] | [[en/Github Projects (AI)/Github Projects List (AI)|EN]] | [[de/Github Projects (AI)/Github Projects List (AI)| DE]]
+
+#git #github #projects
 ## 1. AI
 
 | Название и ссылка                                                | Описание                                                                                      |

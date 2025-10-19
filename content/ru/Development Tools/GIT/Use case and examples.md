@@ -2,6 +2,8 @@
 title: Use case and examples
 ---
 [[ru/Development Tools/GIT/Use case and examples|RU]] | [[en/Development Tools/GIT/Use case and examples|EN]] | [[de/Development Tools/GIT/Use case and examples|DE]]
+
+#git #commands #cases #examples 
 ## Сценарий использования
 ### 1. Задачи в системе
 В Jira или GitHub Projects создаются задачи:

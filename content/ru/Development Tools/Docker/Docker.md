@@ -2,6 +2,8 @@
 title: "Docker"
 ---
 [[ru/Development Tools/GIT/Docker|RU]] | [[en/Development Tools/GIT/Docker|EN]] | [[de/Development Tools/GIT/Docker|DE]]
+
+#docker 
 ## 1) Базовые понятия
 
 - **Image (образ)** — шаблон файловой системы + метаданные. Слоистая структура (union FS).
