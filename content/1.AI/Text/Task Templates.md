@@ -1,7 +1,7 @@
 ---
 title: "Task Templates"
 ---
-[[ru/AI/Text/Task Templates|RU]] | [[en/AI/Text/Task Templates|EN]] | [[de/AI/Text/Task Templates|DE]]
+[[Task Templates|RU]] | [[en/AI/Text/Task Templates|EN]] | [[de/AI/Text/Task Templates|DE]]
 
 #ai #text #prompt #templates 
 ## 1. Пример. Написание статьи в блог 

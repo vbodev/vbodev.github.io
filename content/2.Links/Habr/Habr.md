@@ -1,7 +1,6 @@
 ---
 title: Habr
 ---
-[[ru/Habr/Habr|RU]] | [[en/Habr/Habr|EN]] | [[de/Habr/Habr|DE]]
 
 #habr #links
 ### Development

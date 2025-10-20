@@ -1,7 +1,6 @@
 ---
 title: Github Projects List (AI)
 ---
-[[ru/Github Projects (AI)/Github Projects List (AI)|RU]] | [[en/Github Projects (AI)/Github Projects List (AI)|EN]] | [[de/Github Projects (AI)/Github Projects List (AI)| DE]]
 
 #git #github #projects
 ## 1. AI
@@ -67,7 +66,7 @@ title: Github Projects List (AI)
 | [Steel-browser.](https://github.com/steel-dev/steel-browser)      | Steel-browser         |
 | [Browser Use](https://github.com/browser-use/browser-use)         | Browser use           |
 | [Lightpanda-io/browser](https://github.com/lightpanda-io/browser) | Lightpanda-io/browser |
-## 8. Отсортировать
+## 8. For sort
 
 | Название и ссылка                                                                         | Описание                                                                                                                                                                                                                                                                                                                                              |
 | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
