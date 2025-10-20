@@ -5,8 +5,8 @@
 .stfolder
 .quartz-cache
 content/.obsidian/*
-content/ru/3.private/
 content/.stfolder
+content/ru/3.private
 node_modules
 public
 prof
