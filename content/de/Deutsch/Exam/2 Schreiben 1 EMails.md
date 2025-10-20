@@ -4,46 +4,51 @@ title: 2 Schreiben 1 EMails
 ## _Informelles_
 
 1. Liebe(r) … , es geht mir sehr gut.
-2. Ich habe lange nichts von dir gehört. Wie geht es dir? Viel Dank für deine Antwort. Ich freue mich immer über Post von dir. Viel Dank   für deine Einladung. Ich freue mich dich **_zu_** hören. Schön dich **_zu_** hören. Herzlichen Glückwunsch zu deiner … .
-3. Ich habe eine Frage: … . Noch eine Frage … . Ach ja, noch etwas: … .
-4. Liebe Grüße, …
+2. Ich <span class="red">habe lange nichts von dir gehört</span>. Wie <span class="red">geht</span> es dir? 
+3. Viel Dank für deine Antwort. 
+4. Ich <span class="red">freue mich immer über Post von dir</span>. 
+5. Viel Dank für deine <span class="red">Einladung</span>. 
+6. Ich <span class="red">freue</span> mich dich <span class="red-bold">zu</span> <span class="red">hören</span>. Schön dich <span class="red-bold">zu</span> <span class="red">hören</span>. 
+7. Herzlichen Glückwunsch zu deiner … .
+8. Ich <span class="red">habe</span> eine Frage: … . Noch eine Frage … . Ach ja, noch etwas: … .
+9. Liebe Grüße, …
 ## _Formelles_
 
 **1.** Sehr geehrte(r) Frau … (Herr …) / Sehr geehrte Damen und Herren,
 
 **2.**
-1) hiermit möchte ich Sie darüber informieren, **_dass_** …
-2) hiermit möchte ich Ihnen mitteilen, **_dass_** …
-3) hiermit möchte ich mich auf die Stelle der Softwareentwickler bewerben.
-4) hiermit möchte ich Sie um die Kostenübernahme für meinen Deutschkurs bitten
-5) hiermit möchte ich meine Mitgliedschaft in Ihrem Fitnessstudio fristlos zum 01.07.2023 kündigen
-6) Es wäre schön, **_wenn_** Sie mir ein paar Informationen zuschicken könnten.
-7) Ich würde gerne wissen, **_wie_** die Öffnungszeiten vom Fundbüro sind?
-8)	Könnten Sie mir bitte mitteilen, …
-9)	Mich interessiert auch, **_welche_** andere Informationen über mich ich zuschicken muss (mitteilen kann).
+1) <span class="red">hiermit möchte ich</span> Sie darüber <span class="red">informieren</span>, <span class="red-bold">dass</span> …
+2) <span class="red">hiermit möchte ich</span> Ihnen mitteilen, <span class="red-bold">dass</span> …
+3) <span class="red">hiermit möchte ich</span> mich auf die Stelle der Softwareentwickler <span class="red">bewerben</span>.
+4) hiermit möchte ich Sie um die Kostenübernahme für meinen Deutschkurs <span class="red">bitten</span>
+5) <span class="red">hiermit möchte ich</span> meine Mitgliedschaft in Ihrem Fitnessstudio fristlos zum 01.07.2023 kündigen
+6) Es <span class="red">wäre</span> schön, <span class="red-bold">wenn</span> Sie mir ein paar Informationen zuschicken könnten.
+7) Ich <span class="red">würde</span> gerne <span class="red">wissen</span>, <span class="red-bold">wie</span> die Öffnungszeiten vom Fundbüro <span class="red">sind</span>?
+8)	<span class="red">Könnten</span> Sie mir bitte <span class="red">mitteilen</span>, …
+9)	Mich <span class="red">interessiert</span> auch, <span class="red-bold">welche</span> andere Informationen über mich ich <span class="red">zuschicken muss (mitteilen kann)</span>.
 
 **3.**
 1)	Vielen Dank für Ihre Antwort.
 2) Vielen Dank im Voraus für Ihre Antwort.
-3)	Ich freue mich auf Ihre Antwort.
-4)	Ich würde mich freuen, von Ihnen **_zu_** hören.
-5)	Sie können mich sowohl unter Telefonnummer +4301 **_als_** **_auch_** unter E-Mail-Adresse … erreichen
-6)	Am besten erreichen Sie mich unter der Woche unter Telefonnummer: +4301.
+3)	Ich <span class="red">freue</span> mich auf Ihre Antwort.
+4)	Ich <span class="red">würde</span> mich <span class="red">freuen</span>, von Ihnen <span class="red-bold">zu</span> <span class="red">hören</span>.
+5)	Sie <span class="red">können</span> mich sowohl unter Telefonnummer +4301 <span class="red-bold">als auch</span> unter E-Mail-Adresse … <span class="red">erreichen</span>
+6)	Am besten <span class="red">erreichen</span> Sie mich unter der Woche unter Telefonnummer: +4301.
 
 **4.** 
 1)	Mit freundlichen Grüßen … . Liebe(r) Grüße …
-2)	Ich schreibe Ihnen, weil … (<span class="green">Я пишу Вам, потому что …</span>)
-3)	Ich beziehe mich auf Ihre Mitteilung vom … (<span class="green">Я ссылаюсь на Ваше сообщение от</span>)
-4)	Ich wende mich an Sie, weil … (<span class="green">Я обращаюсь к Вам, потому что …</span>)
-5)	Ich möchte mich nach weiteren Informationen über … erkundigen (<span class="green">Я хотел бы узнать дополнительную информацию о …</span>)
-6)	Ich möchte mich offiziell beschweren, weil … (<span class="green">Я хотел бы официально пожаловаться, потому что …</span>)
-7)	Ich interessiere mich für … (<span class="green">Я интересуюсь …</span>)
-8)	Ich habe ein Problem und bitte Sie um Ihre Hilfe … (<span class="green">У меня есть проблема, и я прошу Вас о помощи...</span>)
-9)	Ich möchte einen Termin stornieren/absagen …  (<span class="green">Я хочу термин отменить …</span>)
-10) Ich würde gerne einen neuen Termin vereinbaren … (<span class="green">Я бы хотел новый термин назначить …</span>)
-11) Vielen Dank im Voraus für Ihre Hilfe/Ihre Antwort (<span class="green">Большое спасибо заранее за Вашу помощь/ответ…</span>)
-12) Ich danke Ihnen im Voraus (<span class="green">Я благодарю Вас заранее …</span>)
-13) Ich wäre Ihnen für schnelle Antwort/Rückmeldung sehr dankbar (<span class="green">Я был бы Вам за быстрый ответ/отклик очень благодарен</span>)
+2)	Ich schreibe Ihnen, weil … (<span class="green-bold">Я пишу Вам, потому что …</span>)
+3)	Ich beziehe mich auf Ihre Mitteilung vom … (<span class="green-bold">Я ссылаюсь на Ваше сообщение от</span>)
+4)	Ich wende mich an Sie, weil … (<span class="green-bold">Я обращаюсь к Вам, потому что …</span>)
+5)	Ich möchte mich nach weiteren Informationen über … erkundigen (<span class="green-bold">Я хотел бы узнать дополнительную информацию о …</span>)
+6)	Ich möchte mich offiziell beschweren, weil … (<span class="green-bold">Я хотел бы официально пожаловаться, потому что …</span>)
+7)	Ich interessiere mich für … (<span class="green-bold">Я интересуюсь …</span>)
+8)	Ich habe ein Problem und bitte Sie um Ihre Hilfe … (<span class="green-bold">У меня есть проблема, и я прошу Вас о помощи...</span>)
+9)	Ich möchte einen Termin stornieren/absagen …  (<span class="green-bold">Я хочу термин отменить …</span>)
+10) Ich würde gerne einen neuen Termin vereinbaren … (<span class="green-bold">Я бы хотел новый термин назначить …</span>)
+11) Vielen Dank im Voraus für Ihre Hilfe/Ihre Antwort (<span class="green-bold">Большое спасибо заранее за Вашу помощь/ответ…</span>)
+12) Ich danke Ihnen im Voraus (<span class="green-bold">Я благодарю Вас заранее …</span>)
+13) Ich wäre Ihnen für schnelle Antwort/Rückmeldung sehr dankbar (<span class="green-bold">Я был бы Вам за быстрый ответ/отклик очень благодарен</span>)
 
 ## EMAIL B1
 ### 1. Email (Mieten Wohnung)
@@ -55,7 +60,7 @@ Sehr geehrte Frau Karlinger, ich hoffe, es geht Ihnen gut. Mein Name ist Vitaliy
 ### 4. Email ()
 Liebe Anna, ich freue mich, deinen Brief zu sehen. Ja, ich habe mir gestern den Fuß gebrochen und jetzt bin ich gerade im Krankenhaus. Ich wurde von einem Auto angefahren, **_wann_** ich über Straße gegangen habe. Aber Ich kann so genau mich nicht mehr erinnern, **_wie_** es eigentlich passiert ist. Auf jeden Fall hat mich ein Rettungswagen in die Notaufnahme gebraucht. Im Krankenhaus bin ich operiert worden und habe einen Gips bekommen, **deshalb** muss ich 5 Tage im Krankenhaus bleiben. Aber nächste Woche kann ich das Krankenhaus verlassen und ich werde deine Hilfe nächste Woche brauchen. Könntest du mich vom Krankenhaus abholen und nach Hause bringen? Könntest du mich zuhause unterstützen? Außerdem muss ich Lebensmittel mit nach Hause nehmen und kann nicht selbst in den Laden gehen. Bitte schreib mir oder ruf mir an. Viele Grüße, Vitaliy
 ### 5. Email (Redaction)
-Sehr geehrte Redaktion, ich möchte gerne auf Ihren Artikel „Bauchfrei in die Schule“ antworten. Mein Name ist Walter Wagner. Ich arbeite als Schuldirektor in einer HAK (15-19 Jahre). Ich denke, **_dass_** „bauchfreie T-            Shirts“ nicht erlaubt werden sollten. In unserer Schule empfehle ich eine Schuluniform zu tragen, **_weil_** Schüler in der Schule lernen müssen. Mit freundlichen Grüßen, Herr Walter Wagner
+Sehr geehrte Redaktion, ich möchte gerne auf Ihren Artikel „Bauchfrei in die Schule“ antworten. Mein Name ist Walter Wagner. Ich arbeite als Schuldirektor in einer HAK (15-19 Jahre). Ich denke, **_dass_** „bauchfreie T-Shirts“ nicht erlaubt werden sollten. In unserer Schule empfehle ich eine Schuluniform zu tragen, **_weil_** Schüler in der Schule lernen müssen. Mit freundlichen Grüßen, Herr Walter Wagner
 ### 6. Email
 Ich habe einen Bachelor-Abschluss und einen Master-Abschluss in Technischer Informatik von    Technische Nationaluniversität Donezk (Ukraine) abgeschlossen. Ich bin ein erfahrener und    leidenschaftlicher Softwareentwickler, **_der_** ständig nach neuen Aufgaben und Lernmöglichkeiten sucht, **_deshalb_** suche ich eine Stelle als Softwareentwickler. Und auch weil ich schwierige Aufgaben lösen und anderen Menschen die erleichtern mag.
 ### 7. Email
