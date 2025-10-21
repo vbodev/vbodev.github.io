@@ -1,65 +1,5 @@
 @use "./base.scss";
 
-// put your custom CSS here!
-.red { color: #ff0000; }
-.green { color: #27ae60; }
-.blue { color: #2980b9; }
-.brown { color: #ff8000; }
-.brown-tt { color: #ffb66c; }
-
-
-.gray {color: #3d3d3d; }
-.rose {color: #fc6b6b; }
-.bluesm {color: #528fce; }
-.greensm {color: #77bc65; }
-
-
-.red-bg { background-color: #e74c3c; color: white; padding: 2px 4px; border-radius: 3px; }
-.green-bg { background-color: #27ae60; color: white; padding: 2px 4px; border-radius: 3px; }
-.blue-bg { background-color: #2980b9; color: white; padding: 2px 4px; border-radius: 3px; }
-.brown-bg { background-color: #ff8000; color: white; padding: 2px 4px; border-radius: 3px; }
-.brown-bg-tt { background-color: #ffb66c; color: white; padding: 2px 4px; border-radius: 3px; }
-
-.gray-bg { background-color: #3d3d3d; color: white; padding: 2px 4px; border-radius: 3px; }
-.rose-bg { background-color: #fc6b6b; color: white; padding: 2px 4px; border-radius: 3px; }
-.bluesm-bg { background-color: #528fce; color: white; padding: 2px 4px; border-radius: 3px; }
-.greensm-bg { background-color: #77bc65; color: white; padding: 2px 4px; border-radius: 3px; }
-
-
-.red-bold { color: #ff0000; font-weight: bold; }
-.green-bold { color: #27ae60; font-weight: bold; }
-.blue-bold { color: #2980b9; font-weight: bold; }
-.brown-bold { color: #ff8000; font-weight: bold; }
-.brown-bold-tt { color: #ffb66c; font-weight: bold; }
-
-.gray-bold {color: #3d3d3d; font-weight: bold; }
-.rose-bold {color: #fc6b6b; font-weight: bold; }
-.bluesm-bold {color: #528fce; font-weight: bold; }
-.greensm-bold {color: #77bc65; font-weight: bold; }
-
-
-.underline { text-decoration: underline; }
-
-.italic	{ font-style: italic; }
-.bold { font-weight: bold; }
-
-:root {
-  /* Базовый размер шрифта на сайте */
-  font-size: 17px; /* например, было 16px, стало чуть крупнее */
-}
-
-/* Можно отдельно увеличить текст контента */
-body, .content {
-  font-size: 1rem; /* 1rem = значение из :root */
-  line-height: 1.2;
-}
-
-/* === Material-like theme for Quartz ===
-   Drop-in styles for quartz/styles/custom.scss (or custom.css)
-
-   Шрифты: Inter + JetBrains Mono
-   Если нужен Roboto: замени Inter на Roboto, JetBrains Mono на Roboto Mono.
-*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap");
 
 /* Цветовые токены в духе MkDocs Material */
@@ -361,3 +301,71 @@ img {
     padding: 0;
   }
 }
+
+
+
+
+
+
+
+
+// put your custom CSS here!
+.red { color: #ff0000; }
+.green { color: #27ae60; }
+.blue { color: #2980b9; }
+.brown { color: #ff8000; }
+.brown-tt { color: #ffb66c; }
+
+
+.gray {color: #3d3d3d; }
+.rose {color: #fc6b6b; }
+.bluesm {color: #528fce; }
+.greensm {color: #77bc65; }
+
+
+.red-bg { background-color: #e74c3c; color: white; padding: 2px 4px; border-radius: 3px; }
+.green-bg { background-color: #27ae60; color: white; padding: 2px 4px; border-radius: 3px; }
+.blue-bg { background-color: #2980b9; color: white; padding: 2px 4px; border-radius: 3px; }
+.brown-bg { background-color: #ff8000; color: white; padding: 2px 4px; border-radius: 3px; }
+.brown-bg-tt { background-color: #ffb66c; color: white; padding: 2px 4px; border-radius: 3px; }
+
+.gray-bg { background-color: #3d3d3d; color: white; padding: 2px 4px; border-radius: 3px; }
+.rose-bg { background-color: #fc6b6b; color: white; padding: 2px 4px; border-radius: 3px; }
+.bluesm-bg { background-color: #528fce; color: white; padding: 2px 4px; border-radius: 3px; }
+.greensm-bg { background-color: #77bc65; color: white; padding: 2px 4px; border-radius: 3px; }
+
+
+.red-bold { color: #ff0000; font-weight: bold; }
+.green-bold { color: #27ae60; font-weight: bold; }
+.blue-bold { color: #2980b9; font-weight: bold; }
+.brown-bold { color: #ff8000; font-weight: bold; }
+.brown-bold-tt { color: #ffb66c; font-weight: bold; }
+
+.gray-bold {color: #3d3d3d; font-weight: bold; }
+.rose-bold {color: #fc6b6b; font-weight: bold; }
+.bluesm-bold {color: #528fce; font-weight: bold; }
+.greensm-bold {color: #77bc65; font-weight: bold; }
+
+
+.underline { text-decoration: underline; }
+
+.italic	{ font-style: italic; }
+.bold { font-weight: bold; }
+
+:root {
+  /* Базовый размер шрифта на сайте */
+  font-size: 17px; /* например, было 16px, стало чуть крупнее */
+}
+
+/* Можно отдельно увеличить текст контента */
+body, .content {
+  font-size: 1rem; /* 1rem = значение из :root */
+  line-height: 1.2;
+}
+
+/* === Material-like theme for Quartz ===
+   Drop-in styles for quartz/styles/custom.scss (or custom.css)
+
+   Шрифты: Inter + JetBrains Mono
+   Если нужен Roboto: замени Inter на Roboto, JetBrains Mono на Roboto Mono.
+*/
