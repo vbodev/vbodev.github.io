@@ -46,12 +46,20 @@ html, body {
   line-height: 1.6;
 }
 
-/* Глобальная сетка: левый сайдбар, центр контент, справа ToC */
+/* === FIX: адаптивная сетка, чтоб центр не схлопывался === */
+
+/* Контейнер страницы — больше никакого узкого max-width,
+   пусть занимает всю ширину, а ограничим только центральный контент */
 .page {
   display: grid;
-  grid-template-columns: var(--sidebar-width) minmax(0, 1fr) var(--toc-width);
+  grid-template-columns:
+    minmax(220px, var(--sidebar-width))   /* слева: не меньше 220, но не больше заданного */
+    minmax(0, 1fr)                        /* центр: тянется и НЕ схлопывается */
+    minmax(220px, var(--toc-width));      /* справа: ToC тоже с минимальной шириной */
   gap: 24px;
-  max-width: calc(var(--container-width) + var(--sidebar-width) + var(--toc-width) + 48px);
+  /* Раньше здесь стоял max-width calc(...), из-за которого сетка не влезала.
+     Убираем общий max-width и просто центрируем: */
+  width: 100%;
   margin: 0 auto;
   padding: calc(var(--header-height) + 24px) 24px 64px;
 }
@@ -107,9 +115,11 @@ html, body {
   font-weight: 600;
 }
 
-/* Контент по центру */
+/* Центр ограничиваем по читаемости, но именно ВНУТРИ центральной колонки */
 .main, .content, main {
-  max-width: var(--container-width);
+  max-width: var(--container-width);  /* например, 980px */
+  width: 100%;
+  justify-self: center;               /* красиво центрирует контентную колонку */
 }
 
 .main > article, .content > article, main > article, .content > .page-content, .content article {
@@ -120,7 +130,6 @@ html, body {
   padding: 28px;
 }
 
-/* Правая колонка (ToC) */
 .toc, .right, .right-sidebar, nav.toc {
   position: sticky;
   top: calc(var(--header-height) + 16px);
@@ -129,6 +138,7 @@ html, body {
   padding: 12px;
   border-left: 1px solid var(--md-border);
   font-size: 14px;
+  max-width: 100%;
 }
 
 .toc a {
@@ -150,9 +160,11 @@ html, body {
 h1, h2, h3, h4 {
   scroll-margin-top: calc(var(--header-height) + 16px);
 }
-h1 { font-size: 2rem; font-weight: 700; margin: 0 0 12px; }
-h2 { font-size: 1.5rem; font-weight: 650; margin-top: 30px; }
-h3 { font-size: 1.15rem; font-weight: 650; margin-top: 22px; }
+
+/* Заголовки — чуть скромнее, чтобы не «орать» при сужениях */
+h1 { font-size: 1.75rem; font-weight: 700; margin: 0 0 12px; }
+h2 { font-size: 1.35rem; font-weight: 650; margin-top: 28px; }
+h3 { font-size: 1.1rem;  font-weight: 650; margin-top: 20px; }
 
 a {
   color: var(--md-primary-700);
@@ -286,21 +298,46 @@ img {
   padding: 16px;
 }
 
-/* Мобильная адаптация: стекаем колонки */
-@media (max-width: 1200px) {
+/* На средних экранах отключаем ToC, чтобы центр оставался комфортным */
+@media (max-width: 1400px) {
   .page {
-    grid-template-columns: 1fr;
-    padding: calc(var(--header-height) + 16px) 12px 48px;
+    grid-template-columns:
+      minmax(220px, var(--sidebar-width))
+      minmax(0, 1fr);                /* только сайдбар + контент */
   }
-  .sidebar, .toc {
-    position: static;
-    height: auto;
-    border: none;
-    padding: 0;
+  .toc, .right, .right-sidebar, nav.toc {
+    display: none !important;
   }
 }
 
+/* На узких экранах прячем и сайдбар (бургер/поиск останутся в хедере) */
+@media (max-width: 1024px) {
+  .page {
+    grid-template-columns: minmax(0, 1fr);  /* только контент */
+    padding: calc(var(--header-height) + 16px) 12px 48px;
+  }
+  .sidebar, .left, .left-sidebar, nav.sidebar {
+    display: none !important;
+  }
+}
 
+/* Безопасные правила переноса, чтобы длинные токены не ломали верстку */
+.main > article, .content > article, main > article, .content > .page-content, .content article {
+  overflow-wrap: anywhere;  /* позволяет переносить очень длинные слова/URL */
+  word-break: normal;
+}
+
+/* Сайдбар и ToC делаем липкими, как было, но без жестких ширин */
+.sidebar, .left, .left-sidebar, nav.sidebar {
+  position: sticky;
+  top: calc(var(--header-height) + 16px);
+  height: calc(100vh - var(--header-height) - 32px);
+  overflow: auto;
+  padding: 12px;
+  border-right: 1px solid var(--md-border);
+  /* убираем любые fixed-width, если ставили раньше */
+  max-width: 100%;
+}
 
 
 
@@ -360,10 +397,3 @@ body, .content {
   font-size: 1rem; /* 1rem = значение из :root */
   line-height: 1.2;
 }
-
-/* === Material-like theme for Quartz ===
-   Drop-in styles for quartz/styles/custom.scss (or custom.css)
-
-   Шрифты: Inter + JetBrains Mono
-   Если нужен Roboto: замени Inter на Roboto, JetBrains Mono на Roboto Mono.
-*/
