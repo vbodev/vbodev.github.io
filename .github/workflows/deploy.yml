@@ -6,12 +6,12 @@ on:
       - v4
  
 env:
+  #THEME_NAME: yue
+  THEME_NAME: wikipedia
   #THEME_NAME: carbon
   #THEME_NAME: chime
   #THEME_NAME: default
-  #THEME_NAME: wikipedia
   #THEME_NAME: willemstad
-  THEME_NAME: yue
 permissions:
   contents: read
   pages: write
