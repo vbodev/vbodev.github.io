@@ -8,8 +8,8 @@ on:
 env:
   #THEME_NAME: yue
   #THEME_NAME: wikipedia
-  THEME_NAME: carbon
-  #THEME_NAME: chime
+  #THEME_NAME: carbon
+  THEME_NAME: chime
   #THEME_NAME: default
   #THEME_NAME: willemstad
 permissions:
