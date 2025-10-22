@@ -10,8 +10,8 @@ env:
   #THEME_NAME: wikipedia
   #THEME_NAME: carbon
   #THEME_NAME: chime
-  THEME_NAME: default
-  #THEME_NAME: willemstad
+  #THEME_NAME: default
+  THEME_NAME: willemstad
 permissions:
   contents: read
   pages: write
