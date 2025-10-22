@@ -52,7 +52,7 @@ The PR shows:
 - CI runs tests.
 - If successful, the code is deployed.
 
-Визуальная схема (3 разработчика)
+Visual diagram (3 developers)
 ```
 main ──●────────────────────●────────────────────●────────────────────────►
         \                    \                    \
@@ -62,137 +62,141 @@ main ──●────────────────────●─
                                                       \
                                             bugfix/TASK-103-email-validation
 ```
-Каждая задача → своя ветка → свой PR → merge в main.
-### 📌Итог:
-- Каждая задача живёт в своей ветке.
-- Названия веток и коммитов связаны с ID задачи.
-- Jira/GitHub Projects автоматически связывают задачи ↔ ветки ↔ коммиты ↔ PR.
-- История чистая и прозрачная: видно, кто сделал какую задачу и когда.
-## Примеры
+Each task → its own branch → its own PR → merge into main.
+### 📌Result:
 
-### Пример 1: Одна задача одного разработчика в Jira
+- Each task lives in its own branch.
+- Branch and commit names are linked to the task ID.
+- Jira/GitHub Projects automatically connect tasks ↔ branches ↔ commits ↔ PRs.
+- The history is clean and transparent: you can see who completed which task and when.
+## Examples
 
-**TASK-101**: Реализовать логин 
-**Описание:** пользователь должен вводить email + пароль, система проверяет данные и пускает в систему.
-#### 1. Задача в Jira
-В Jira задача создана и назначена на разработчика.Статус: **To Do** → **In Progress**.
-#### 2. Создание ветки в Git**
-Разработчик берёт задачу в работу:
-##### Обновляем локальную main до актуальной версии
+### Example 1: One task per developer in Jira.
+
+**TASK-101**: Implement login  
+**Description:** The user must enter an email and password; the system validates the data and grants access.
+
+#### 1. Task in Jira
+
+The task is created in Jira and assigned to the developer. Status: **To Do** → **In Progress**.
+#### 2. Creating a branch in Git
+
+The developer starts working on the task:
+##### Update the local main branch to the latest version
 ```bash
 git checkout main
 git fetch origin
 git rebase origin/main
 ```
-##### Создаём ветку под задачу
+##### Create a branch for the task
 ```
 git checkout -b feature/TASK-101-login
 ```
 Теперь у разработчика своя изолированная ветка.
-#### 3. Работа над задачей
-Программист пишет код и фиксирует изменения коммитами:
+#### 3. Working on the task
+The developer writes code and records changes with commits:
 ```bash
 git add src/login_controller.java
-git commit -m "TASK-101: добавлен контроллер логина"
+git commit -m "TASK-101: login controller added"
 git add src/login_service.java
-git commit -m "TASK-101: реализована проверка email и пароля"
+git commit -m "TASK-101: email and password validation implemented"
 git add src/tests/login_test.java
-git commit -m "TASK-101: добавлены unit-тесты для логина"
+git commit -m "TASK-101: unit-tests for login added"
 ```
-👉 Обрати внимание: в каждом сообщении указан **TASK****-101**, чтобы Jira и GitHub могли связать коммит с задачей.
-#### 4. Публикация ветки
-Когда задача готова:
+> [!Note]
+> 👉 Note: each commit message includes **TASK-101** so that Jira and GitHub can link the commit to the task.
+#### 4. Publishing the branch
+When the task is ready:
 ```bash
 git push origin feature/TASK-101-login
 ```
-Теперь ветка появилась на GitHub/GitLab.
-#### 5. Создание Pull Request
-На GitHub создаётся **Pull Request**:
-- Ветка: feature/TASK-101-login → в main
-- Заголовок: [TASK-101] Реализовать логин
-- Описание: ссылка на задачу в Jira (https://jira.company.com/browse/TASK-101)
-PR автоматически привязывается к задаче в Jira.
+Now the branch has appeared on GitHub/GitLab.
+#### 5. Creating a Pull Request
+A **Pull Request** is created on GitHub:
+- Branch: feature/TASK-101-login → main
+- Title: [TASK-101] Implement login
+- Description: link to the Jira task ([https://jira.company.com/browse/TASK-101](https://jira.company.com/browse/TASK-101))  
+    The PR is automatically linked to the task in Jira.
 #### 6. Code Review
-- Другие 2 разработчика смотрят изменения.
-- Оставляют комментарии (например, «вынести метод в отдельный сервис»).
-- Автор дорабатывает код → пушит новые коммиты:
-
+- The other two developers review the changes.
+- They leave comments (for example, “move the method to a separate service”).
+- The author refines the code → pushes new commits:
 ```bash
 git add src/login_service.java
 git commit -m "TASK-101: рефакторинг сервиса логина"
 git push origin feature/TASK-101-login
 ```
-PR обновляется автоматически.
+The PR updates automatically.
 #### 7. Merge
-После одобрения (Approve):
-- PR вливается в main (через **Squash** или **Rebase** **and** **merge**, чтобы история была чистой).
-- CI запускает тесты, билд и деплой.
-#### 8. Завершение задачи
-- Jira переводит задачу в статус **Done** автоматически (по хуку из GitHub).
-- В истории видно: коммиты, PR, кто ревьюил, кто мерджил.
+After approval (Approve):
+- The PR is merged into main (using **Squash** or **Rebase and merge** to keep the history clean).
+- CI runs tests, build, and deployment.
+#### 8. Task completion
+- Jira automatically moves the task to **Done** (via a GitHub webhook).
+- The history shows commits, the PR, who reviewed, and who merged.
 
-**Визуальная схема**
+**Visual diagram**
 ```
 main ────●───────────────●─────────────────●───────────────►
           \                                      /
            \                                    /
  feature/TASK-101-login ──●──●──●──●───────────● (merge)
-                          (код, тесты, фиксы)
+                          (code, test, fix)
 ```
-📌 **Итог**:
-- Jira → хранит задачу (ID, описание, статус).
-- Git → хранит ветку и коммиты.
-- GitHub/GitLab → связывает PR с задачей.
-- CI/CD → проверяет и деплоит код.
-Каждый шаг прозрачен: сразу видно, какой код относится к какой задаче.
+📌 **Result**:
+- Jira → stores the task (ID, description, status).
+- Git → stores the branch and commits.
+- GitHub/GitLab → links the PR to the task.
+- CI/CD → tests and deploys the code.  
+    Each step is transparent: it’s immediately clear which code belongs to which task.
+### Example 2:
 
-### Пример 2:
+Tasks in Jira:
 
-Задачи в Jira:
-- **TASK-101** — логин (Программист №1)
-- **TASK-102** — оплата (Программист №2)
-- **TASK-103** — баг в email (Программист №3)
-#### 1. Каждый создаёт ветку под задачу
+- **TASK-101** — login (Developer #1)
+- **TASK-102** — payment (Developer #2)
+- **TASK-103** — email bug (Developer #3)
+#### 1. Each developer creates a branch for their task.
 ```bash
-# Программист №1
+# Developer №1
 git checkout -b feature/TASK-101-login
-# Программист №2
+# Developer №2
 git checkout -b feature/TASK-102-payments
-# Программист №3
+# Developer №3
 git checkout -b bugfix/TASK-103-email-validation
 ```
-#### 2. Каждый делает коммиты локально
+#### 2. Each developer makes commits locally.
 ```bash
-Программист №1 (логин):
-git commit -m "TASK-101: контроллер логина"
-Программист №2 (оплата):
-git commit -m "TASK-102: сервис оплаты"
-Программист №3 (валидация email):
-git commit -m "TASK-103: исправлена валидация email"
+Developer №1 (login):
+git commit -m "TASK-101: login controller"
+Developer №2 (payment):
+git commit -m "TASK-102: payment service"
+Developer №3 (valiidation email):
+git commit -m "TASK-103: validation email fixed"
 ```
-#### 3. Каждый пушит свою ветку
+#### 3. Each developer pushes their own branch.
 ```bash
 git push origin feature/TASK-101-login
 git push origin feature/TASK-102-payments
 git push origin bugfix/TASK-103-email-validation
 ```
-Теперь в origin есть три новые ветки.
+Now there are three new branches in origin.
 #### 4. PR (Pull Request)
-- №1 открывает PR [TASK-101] Реализовать логин
-- №2 открывает PR [TASK-102] Добавить оплату
-- №3 открывает PR [TASK-103] Фикс email
-Все PR направлены в main.
+- #1 opens PR **[TASK-101] Implement login**
+- #2 opens PR **[TASK-102] Add payment**
+- #3 opens PR **[TASK-103] Fix email**  
+    All PRs are targeted at the main branch.
 #### 5. Code Review и Merge
-Представим, что PR идут последовательно.
+Let’s assume the PRs are processed sequentially.
 
-**Первый merge** **(TASK****-101):**
+**First merge** **(TASK****-101):**
 ```graph
 main ───A──B──C─────────●──────●──────●──────────────►
          \
           feature/TASK-101-login (merge → ●)
 ```
 
-**Второй merge (TASK-102):**
+**Second merge (TASK-102):**
 ```graph
 main ───A──B──C─────────●──────●──────●──────────────►
           \                      /
@@ -201,7 +205,7 @@ main ───A──B──C─────────●──────●
                            feature/TASK-102-payments (merge → ●)
 ```
 
-**Третий merge (TASK-103):**
+**Third merge (TASK-103):**
 
 ```graph
 main ───A──B──C─────────●──────●──────●──────────────►
@@ -212,34 +216,33 @@ main ───A──B──C─────────●──────●
                                          \
                              bugfix/TASK-103-email-validation (merge → ●)
 ```
-**6. Что получает команда**
+#### 6. What the team gets
 
-- В main теперь лежит код всех трёх задач.
-- Каждая задача прошла через отдельный PR и code review.
-- Jira автоматически закрыла задачи в статус **Done**.
+- The main branch now contains the code for all three tasks.
+- Each task went through a separate PR and code review.
+- Jira automatically closed the tasks with the status **Done**.
 
-**Важный момент — конфликты**
+**Important point — conflicts**
 
-Если два программиста правят один и тот же файл (например, UserService.java):
-
-- Второй, кто делает merge, получит **merge** **conflict**.
-- Решается так:
+If two developers edit the same file (for example, `UserService.java`):
+- The second one to merge will get a **merge conflict**.
+- It’s resolved as follows:
 
 ```bash
 git fetch origin
 git rebase origin/main   # или git merge origin/main
 ```
-## Решаем конфликты
 
+**Resolving conflicts**
 ```bash
 git add .
 git rebase --continue
 git push origin feature/TASK-102-payments
 ```
-После этого PR снова готов к слиянию.
+After that, the PR is ready to be merged again.
 
-📌 **Итого:**
-- Каждая задача = отдельная ветка = отдельный PR.
-- Ветки живут недолго (1–5 дней).
-- В main попадает только проверенный код.
-- Конфликты решаются до merge.
+#### 7. Summary:
+- Each task = separate branch = separate PR.
+- Branches live briefly (1–5 days).
+- Only reviewed code gets into main.
+- Conflicts are resolved before merging.

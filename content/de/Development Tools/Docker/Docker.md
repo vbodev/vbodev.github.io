@@ -2,59 +2,60 @@
 title: "Docker"
 ---
 [[ru/Development Tools/GIT/Docker|RU]] | [[en/Development Tools/GIT/Docker|EN]] | [[de/Development Tools/GIT/Docker|DE]]
-## 1) Базовые понятия
+## 1) Grundbegriffe
 
-- **Image (образ)** — шаблон файловой системы + метаданные. Слоистая структура (union FS).
-- **Container (контейнер)** — запущенный экземпляр образа (процесс + изоляция).
-- **Registry** — хранилище образов (Docker Hub, GitHub Container Registry, GitLab, приватный).
-- **Layer (слой)** — неизменяемые «дельты» образа. Кэш сборки.
-- **Tag** — метка версии образа (`:1.2.3`, `:latest`, `:dev`).
-- **Volume** — постоянные данные вне жизненного цикла контейнера.
-- **Network** — виртуальная сеть Docker (bridge/host/overlay).
-- **Context** — папка сборки; всё, что попадёт в `docker build` (контролируй через `.dockerignore`).
-## 2) Установка и быстрый тест
+- **Image (Abbild)** – Vorlage des Dateisystems + Metadaten. Geschichtete Struktur (Union-FS).
+- **Container** – laufende Instanz eines Images (Prozess + Isolation).
+- **Registry** – Speicherort für Images (Docker Hub, GitHub Container Registry, GitLab, privat).
+- **Layer (Schicht)** – unveränderliche „Deltas“ eines Images. Build-Cache.
+- **Tag** – Versionskennzeichnung eines Images (`:1.2.3`, `:latest`, `:dev`).
+- **Volume** – persistente Daten außerhalb des Lebenszyklus eines Containers.
+- **Network** – virtuelles Docker-Netzwerk (bridge/host/overlay).
+- **Context** – Build-Ordner; alles, was in `docker build` einfließt (kontrolliere mit `.dockerignore`).
+## 2) Installation und schneller Test
 
 ```bash
-# версия
+# version
 docker version
-# простой тест
+# einfacher Test
 docker run --rm hello-world
-# интерактивный Ubuntu
+# interaktives Ubuntu
 docker run -it --rm ubuntu:24.04 bash
 ```
-## 3) Часто используемые команды (1-страничник)
+## 3) Häufig verwendete Befehle (Einseiter)
 
 ```bash
-# Образы
-docker images                                   # список
+# Images
+docker images                                   
+# List 
 docker pull alpine:3.20
 docker rmi IMAGE_ID
 
-# Контейнеры
+# Container
 docker ps -a
 docker run -d --name web -p 8080:80 nginx:1.27
 docker logs -f web
 docker exec -it web sh
 docker stop web && docker rm web
 
-# Сборка
+# Build
 docker build -t myorg/myapp:1.0.0 .
 docker tag myorg/myapp:1.0.0 myorg/myapp:latest
 docker push myorg/myapp:1.0.0
 
-# Сеть и тома
+# Netzwerk und Volumes
 docker network ls
 docker network create appnet
 docker volume ls
 docker volume create pgdata
 docker run -d --name pg --network appnet -v pgdata:/var/lib/postgresql/data postgres:16
 
-# Очистка
+# Bereinigung
 docker system df
 docker system prune -f
 docker volume prune -f
 ```
-## 4) .dockerignore (обязательно)
+## 4) .dockerignore (unbedingt)
 
 ```.dockerignore
 .git
@@ -70,7 +71,7 @@ __pycache__
 .DS_Store
 .env
 ```
-## 5) Dockerfile — паттерны
+## 5) Dockerfile — patterns
 ### 5.1 Multi-stage (Java Spring Boot, JDK 21)
 
 ```bash
@@ -91,7 +92,7 @@ USER nonroot
 ENV JAVA_TOOL_OPTIONS="-XX:+UseContainerSupport -XX:MaxRAMPercentage=75"
 ENTRYPOINT ["java","-jar","/app/app.jar"]
 ```
-### 5.2 Python (uvicorn + fastapi), тонкий слой, кэш через requirements
+### 5.2 Python (uvicorn + fastapi), dünne Schicht, Caching über requirements
 
 ```bash
 FROM python:3.12-slim
@@ -106,7 +107,7 @@ EXPOSE 8000
 CMD ["python","-m","uvicorn","app.main:app","--host","0.0.0.0","--port","8000"]
 ```
 
-`requirements.txt` (пример для готовности):
+`requirements.txt` (Beispiel für die Einsatzbereitschaft):
 ```ini
 fastapi==0.115.5
 uvicorn==0.32.0
@@ -145,7 +146,7 @@ COPY nginx.conf /etc/nginx/nginx.conf
 HEALTHCHECK --interval=10s --timeout=2s --retries=3 CMD wget -qO- http://localhost/health || exit 1
 ```
 
-`nginx.conf` минимальный:
+`nginx.conf`:
 ```nginx
 worker_processes auto;
 events { worker_connections 1024; }
@@ -162,8 +163,8 @@ http {
   }
 }
 ```
-## 6) docker-compose: готовые стеки
-### 6.1 Postgres + pgAdmin + приложение (Java/Python/Node — единый шаблон)
+## 6) docker-compose: Fertige Stacks
+### 6.1 Postgres + pgAdmin + Anwendung (Java/Python/Node — Einheitliche Vorlage)
 
 ```yaml
 version: "3.9"
@@ -216,7 +217,7 @@ services:
       # SPRING_DATASOURCE_USERNAME: appuser
       # SPRING_DATASOURCE_PASSWORD: appsecret
     ports:
-      - "8080:8080"   # или 8000/3000 в зависимости от приложения
+      - "8080:8080"   # или 8000/3000
     depends_on:
       db:
         condition: service_healthy
@@ -229,7 +230,7 @@ networks:
   appnet:
     driver: bridge
 ```
-## 6.2 Prod-прокладка: Nginx-proxy перед приложением
+## 6.2 Prod-Zwischenschicht: Nginx-Proxy vor der Anwendung
 
 ```yaml
 version: "3.9"
@@ -250,47 +251,47 @@ networks:
   appnet:
     driver: bridge
 ```
-## 7) Теги и версии: стратегия
+## 7) Tags und Versionen: Strategie
 
-- Никогда не полагайся на `:latest` в проде.
-- Ставь **семантические теги**: `1.4.2`, плюс «каналы»: `:prod`, `:staging`, `:dev`.
-- Иммутабельные релизы: `myorg/myapp:1.4.2` публикуется один раз; правки — новый номер.
-## 8) Оптимизация размера образа
+- Verlass dich im Produktivbetrieb niemals auf `:latest`.
+- Verwende **semantische Tags**: `1.4.2`, plus „Kanäle“: `:prod`, `:staging`, `:dev`.
+- - Unveränderliche Releases: `myorg/myapp:1.4.2` wird einmal veröffentlicht; Änderungen → neue Nummer.
+## 8) Optimierung der Imagegröße
 
-- Multi-stage build (сверху).
-- Базовые образы `-slim`, `alpine` (осторожно с glibc/musl).
-- Удаляй кеши (`apt-get clean`, `rm -rf /var/lib/apt/lists/*`).
-- Для Python — `--no-cache-dir`, для Node — production-install.
-- Distroless/ubi-micro/runtime-only, non-root пользователь.
-## 9) Безопасность (минимум, но по делу)
+- Multi-Stage-Build (oben).
+- Basis-Images wie `-slim`, `alpine` (vorsichtig bei glibc/musl).
+- Caches löschen (`apt-get clean`, `rm -rf /var/lib/apt/lists/*`).
+- Für Python – `--no-cache-dir`, für Node – Production-Install.
+- Distroless/ubi-micro/runtime-only, Non-Root-Benutzer.
+## 9) Sicherheit (minimal, aber zielgerichtet)
 
-- **USER nonroot** в runtime-слое.
-- Минимизируй поверхность: без компиляторов и шелла в финальном образе.
-- Регулярно обновляй базовые образы.
-- HEALTHCHECK, `readOnlyRootFilesystem` (в k8s), тома только там, где нужно.
-- Secrets не встраивать в образ: использовать переменные окружения/secret-хранилища/`docker secret` (Swarm) или k8s Secrets.
-- Подписывай и проверяй образы (Cosign/SBOM — Syft/Grype) — в CI.
-## 10) Логи, отладка, профили
+- **USER nonroot** in der Runtime-Schicht.
+- Angriffsfläche minimieren: keine Compiler oder Shell im finalen Image.
+- Basis-Images regelmäßig aktualisieren.
+- **HEALTHCHECK**, `readOnlyRootFilesystem` (in k8s), Volumes nur, wo nötig.
+- Keine Secrets im Image: Umgebungsvariablen, Secret-Stores oder `docker secret` (Swarm) bzw. k8s Secrets verwenden.
+- Images signieren und prüfen (Cosign/SBOM — Syft/Grype) – im CI.
+## 10) Logs, Debugging, Profile
 
 ```bash
 docker logs -f app
-docker exec -it app sh        # или bash
+docker exec -it app sh        
 docker top app
 docker inspect app | less
 docker stats
 docker cp app:/path/in/container ./local
 ```
 
-Если контейнер сразу «падает», добавь «интерактивный» entrypoint для отладки:
+Wenn der Container sofort „abstürzt“, füge einen „interaktiven“ Entrypoint zur Fehlersuche hinzu:
 ```bash
 CMD ["sh","-c","sleep 3600"]
 ```
 
-или временно перезапусти с интерактивом:
+oder starte ihn vorübergehend interaktiv neu:
 ```bash
 docker run --rm -it --entrypoint sh myorg/myapp:1.0.0
 ```
-## 11) Ресурсные лимиты и рестарт-политики
+## 11) Ressourcenlimits und Neustart-Richtlinien
 
 ```bash
 docker run -d --name app \
@@ -298,25 +299,25 @@ docker run -d --name app \
   --restart=unless-stopped \
   myorg/myapp:1.0.0
 ```
-Политики: `no` (дефолт), `on-failure`, `unless-stopped`, `always`.
+Richtlinien: `no` (Standard), `on-failure`, `unless-stopped`, `always`.
 
-## 12) Сети: типы и кейсы
+## 12) Netzwerke: Typen und Anwendungsfälle
 
-- **bridge** (дефолт): изоляция между проектами, сервисы достучатся по имени.
-- **host**: без NAT, порты хоста = порты контейнера (Linux only).
-- **overlay**: для Swarm/мульти-хоста.
-- Быстрый линк: `--network appnet` + обращение по `http://service_name:port`.
-## 13) Томá: данные вне контейнера
+- **bridge** (Standard): Isolation zwischen Projekten, Dienste erreichbar über Namen.
+- **host**: ohne NAT, Host-Ports = Container-Ports (nur unter Linux).
+- **overlay**: für Swarm/Multi-Host-Setups.
+- Schnelle Verbindung: `--network appnet` + Zugriff über `http://service_name:port`.
+## 13) Volumes: Daten außerhalb des Containers
 
-- **named volume** для БД: долговечность и переносимость.
-- **bind mount** для локальной разработки (монтируешь исходники).
-- Пример разработки Node:
+- **Named Volume** für Datenbanken: Langlebigkeit und Portabilität.
+- **Bind Mount** für lokale Entwicklung (Quellcode einbinden).
+- Beispiel für Node-Entwicklung:
 ```bash
 docker run -it --rm \
   -v $PWD:/app -w /app \
   -p 3000:3000 node:22-alpine sh
 ```
-## 14) CI/CD: GitHub Actions (готовый workflow)
+## 14) CI/CD: GitHub Actions (fertiger Workflow)
 
 `.github/workflows/docker-build-push.yml`:
 ```yaml
@@ -367,33 +368,33 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
 ```
-## 15) Buildx и кросс-платформенность
+## 15) Buildx und Plattformübergreifendes Bauen
 
 ```bash
 docker buildx create --use
 docker buildx ls
 docker buildx build --platform linux/amd64,linux/arm64 -t myorg/myapp:1.0.0 --push .
 ```
-## 16) Тонкости для продакшена
+## 16) Feinheiten für den Produktionseinsatz
 
-- **Иммутабельность**: деплой только по тегам, rollback — переключением тега.
-- **Readiness/Liveness** (через HEALTHCHECK, а в k8s — probes).
-- **Конфиги**: через переменные окружения/файлы в volume; один образ — много окружений.
-- **Отключай root**, включай `umask`, ограничивай `CAP_*` (в k8s SecurityContext).
-- **SBOM/сканирование уязвимостей** в CI до публикации.
-## 17) Типовые проблемы и решения
+- **Unveränderlichkeit**: Deployment nur per Tags, Rollback durch Tag-Umschaltung.
+- **Readiness/Liveness** (über HEALTHCHECK, in k8s – Probes).
+- **Konfigurationen**: über Umgebungsvariablen/Dateien in Volumes; ein Image – mehrere Umgebungen.
+- **Root deaktivieren**, `umask` aktivieren, `CAP_*` einschränken (in k8s SecurityContext).
+- **SBOM/Schwachstellenscans** im CI vor der Veröffentlichung.
+## 17) Typische Probleme und Lösungen
 
-- **Порт не слушается**: внутри приложение слушает `127.0.0.1`; укажи `0.0.0.0`.
-- **Большой образ**: включи multi-stage и slim-базу; чисти кеши и dev-зависимости.
-- **Кэш сборки не работает**: проверь порядок `COPY` — сначала lock-файлы/зависимости, потом исходники.
-- **Права доступа к файлам**: меняй владельца в runtime-слое (`chown`) и используй `USER`.
-- **«Не видит БД»**: проверь сеть и имя сервиса (`db`), дождись readiness (healthcheck + `depends_on`).
-## 18) Мини-шаблоны для реального старта
+- **Port wird nicht gehört**: Die Anwendung hört intern auf `127.0.0.1`; gib `0.0.0.0` an.
+- **Großes Image**: Aktiviere Multi-Stage-Builds und verwende ein Slim-Basisimage; lösche Caches und Dev-Abhängigkeiten.
+- **Build-Cache funktioniert nicht**: Überprüfe die Reihenfolge der `COPY`-Befehle – zuerst Lock-Dateien/Abhängigkeiten, dann Quellcode.
+- **Dateiberechtigungen**: Ändere den Besitzer in der Runtime-Schicht (`chown`) und verwende `USER`.
+- **„Sieht die Datenbank nicht“**: Überprüfe Netzwerk und Servicenamen (`db`), warte auf Readiness (Healthcheck + `depends_on`).
+## 18) Mini-Vorlagen für den echten Start
 ### 18.1 Spring Boot + Postgres (Compose + Dockerfile)
 
 ```bash
-**Dockerfile** — как в §5.1  
-**docker-compose.yml** — как в §6.1 (порт `8080:8080`, env для Spring закомментированы — раскомментируй при необходимости).
+**Dockerfile** — wie in §5.1  
+**docker-compose.yml** — wie in §6.1 (Port `8080:8080`, Umgebungsvariablen für Spring sind auskommentiert — kommentiere sie bei Bedarf wieder ein).
 ```
 ### 18.2 FastAPI hello-world
 
@@ -414,7 +415,7 @@ def root(): return {"hello": "world"}
 docker build -t fastapi-hello:1.0 .
 docker run -d -p 8000:8000 --name api fastapi-hello:1.0
 ```
-### 18.3 Node HTTP сервер (без фреймворков)
+### 18.3 Node HTTP сервер (ohne frameworks)
 
 `package.json`:
 ```json
@@ -436,23 +437,23 @@ const server = http.createServer((req, res) => {
 });
 server.listen(port, "0.0.0.0", () => console.log(`Listening on :${port}`));
 ```
-Dockerfile — из §5.3.
-## 19) Локальная разработка vs прод
+Dockerfile — §5.3.
+## 19) Lokale Entwicklung vs Produktion
 
-- **Dev**: bind mounts, live-reload, `docker compose up --build`.
-- **Prod**: только иммутабельные образы, конфиги через env/секреты, прокси, healthchecks, лимиты ресурсов.
-## 20) Swarm и Kubernetes (куда дальше)
+- **Dev**: Bind-Mounts, Live-Reload, `docker compose up --build`.
+- **Prod**: nur unveränderliche Images, Konfiguration über Env/Secrets, Proxy, Healthchecks, Ressourcenlimits.
+## 20) Swarm и Kubernetes (Wie geht es weiter)
 
-- **Swarm**: простой оркестратор Docker (`docker swarm init`, `docker stack deploy -c docker-compose.yml mystack`).
-- **Kubernetes**: стандарт индустрии. Переход: разбивай compose на манифесты (Deployment/Service/Ingress/ConfigMap/Secret) или используй Kompose/Helm. Следи за probes, ресурсы/лимиты, securityContext.
-## 21) Чек-лист перед релизом
+- **Swarm**: einfacher Docker-Orchestrator (`docker swarm init`, `docker stack deploy -c docker-compose.yml mystack`).
+- **Kubernetes**: Branchenstandard. Umstieg: zerlege Compose in Manifeste (Deployment/Service/Ingress/ConfigMap/Secret) oder nutze Kompose/Helm. Achte auf Probes, Ressourcen/Limits, SecurityContext.
+## 21) Checkliste vor dem Release
 
-1. Multi-stage + `.dockerignore`.
-2. Non-root пользователь.
-3. HEALTHCHECK работает.
-4. Теги версий проставлены.
-5. Образ отсканирован (Vulns/SBOM).
-6. Конфиги и секреты не «запечены» в образ.
-7. Лимиты CPU/RAM заданы.
-8. CI собирает и пушит артефакты по тегам.
-9. Есть быстрый rollback (старый тег).
+1. Multi-Stage-Build + `.dockerignore`.
+2. Non-Root-Benutzer.
+3. **HEALTHCHECK** funktioniert.
+4. Versions-Tags gesetzt.
+5. Image gescannt (Vulnerabilities/SBOM).
+6. Konfigurationen und Secrets nicht ins Image „eingebacken“.
+7. CPU/RAM-Limits definiert.
+8. CI baut und pusht Artefakte anhand der Tags.
+9. Schneller Rollback möglich (alter Tag).
