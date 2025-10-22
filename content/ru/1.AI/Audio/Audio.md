@@ -25,10 +25,10 @@ title: "Audio"
 
 ## ⚡ 2. **whisper.cpp**
 
-**Язык:** C++ (с Python bindings)  
-**Разработчик:** Georgi Gerganov  
-**Цель:** Быстрое и лёгкое исполнение Whisper без Python-зависимостей
-**Ссылка:** [whisper.cpp](https://github.com/ggml-org/whisper.cpp)
+**Язык:** C++ (с Python bindings) 
+**Разработчик:** Georgi Gerganov 
+**Цель:** Быстрое и лёгкое исполнение Whisper без Python-зависимостей 
+**Ссылка:** [whisper.cpp](https://github.com/ggml-org/whisper.cpp) 
 ### 💡 Особенности
 
 - Переписан полностью на **C++** с использованием **quantization (int8/int4)** — это радикально ускоряет обработку.
@@ -44,9 +44,9 @@ title: "Audio"
 
 ## 🚀 3. **Faster Whisper**
 
-**Язык:** Python  
-**Разработчик:** Guillaume Klein (основан на Whisper + CTranslate2)  
-**Архитектура:** CTranslate2 — высокопроизводительный inference engine на C++
+**Язык:** Python 
+**Разработчик:** Guillaume Klein (основан на Whisper + CTranslate2) 
+**Архитектура:** CTranslate2 — высокопроизводительный inference engine на C++ 
 **Ссылка:** [Faster-Whisper](https://github.com/SYSTRAN/faster-whisper)
 ### 💡 Особенности
 
@@ -65,9 +65,9 @@ title: "Audio"
 
 ## 🔊 4. **WhisperX**
 
-**Язык:** Python  
-**Разработчик:** Max Bain (University of Oxford)  
-**Цель:** Расширение Whisper для точной **диаризации и выравнивания (alignment)**
+**Язык:** Python 
+**Разработчик:** Max Bain (University of Oxford) 
+**Цель:** Расширение Whisper для точной **диаризации и выравнивания (alignment)** 
 **Ссылка:** [WhisperX](https://github.com/m-bain/whisperX)
 ### 💡 Особенности
 
