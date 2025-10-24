@@ -75,12 +75,13 @@ Das Mädchen hält einen schönen Strauß gelber Blumen in der Hand. Im Hintergr
 Die Stimmung ist warm, liebevoll und positiv. Obwohl die ältere Frau vielleicht krank ist, freut sie sich sehr über den Besuch. Alle wirken glücklich und freundlich.
 #### **Eigene Erfahrungen.** 
 Ich erinnere mich an Besuche bei meiner Mutter, wenn sie krank waren. Blumen und ein Lächeln machen oft einen großen Unterschied. Es ist wichtig, Zeit mit älteren Menschen zu verbringen und ihnen zu zeigen, dass man sie liebt und nicht vergisst.
-#### **Was bedeutet es für dich, jemanden zu unterstützen oder zu helfen?**
-Für mich bedeutet es, dass man für jemanden da ist. Wenn meine Freundin Probleme hat, _unterstütze_ ich sie oder _helfe_ ihr beim Umzug. Man fühlt sich dann nicht allein, sondern _geschützt_, wie _in den Händen_ von jemandem, dem man vertraut.
-#### **Wie hast du dich gefühlt, als jemand, den du liebst, krank oder im Krankenhaus war?**
-Ich war sehr _besorgt um_ meine Mutter, als sie im Krankenhaus lag. Ich habe sie jeden Tag besucht und versucht, ihr zu _helfen_, damit sie sich besser fühlt. In solchen Momenten merkt man, wie wichtig _Gesundheit_ ist.
-**Was bedeutet Gesundheit für dich? Denkst du, wir schätzen sie genug?**
-_Gesundheit_ ist für mich das Wichtigste. Wenn man krank ist oder _in einen Unfall gerät_, wird einem klar, wie verletzlich man ist. Ich glaube, viele Menschen _schätzen_ ihre Gesundheit nicht genug – erst wenn sie fehlt, versteht man ihren Wert.
+
+1. ***Was bedeutet es für dich, jemanden zu unterstützen oder zu helfen?***
+	Für mich bedeutet es, dass man für jemanden da ist. Wenn meine Freundin Probleme hat, _unterstütze_ ich sie oder _helfe_ ihr beim Umzug. Man fühlt sich dann nicht allein, sondern _geschützt_, wie _in den Händen_ von jemandem, dem man vertraut.
+2. ***Wie hast du dich gefühlt, als jemand, den du liebst, krank oder im Krankenhaus war?***
+	Ich war sehr _besorgt um_ meine Mutter, als sie im Krankenhaus lag. Ich habe sie jeden Tag besucht und versucht, ihr zu _helfen_, damit sie sich besser fühlt. In solchen Momenten merkt man, wie wichtig _Gesundheit_ ist.
+3. ***Was bedeutet Gesundheit für dich? Denkst du, wir schätzen sie genug?***
+	_Gesundheit_ ist für mich das Wichtigste. Wenn man krank ist oder _in einen Unfall gerät_, wird einem klar, wie verletzlich man ist. Ich glaube, viele Menschen _schätzen_ ihre Gesundheit nicht genug – erst wenn sie fehlt, versteht man ihren Wert.
 ## **Bild 6**
 
 ![[de_image_desc_6.jpg|400x200]]
@@ -109,6 +110,42 @@ Die Stimmung wirkt ruhig und konzentriert. Alle schauen aufmerksam auf das Papie
 Ich war auch schon bei einem Arzt in Österreich. Die Anmeldung war ähnlich – ich musste zuerst meine e-card zeigen und ein Formular ausfüllen. Danach habe ich ein paar Minuten im Wartezimmer gewartet. Der Arzt war sehr freundlich und hat mir alles gut erklärt.
 #### **Eigene Erfahrungen.** 
 Ich habe Erfahrung mit einem Besuch beim Augenarzt in Österreich gemacht. Zuerst musste ich einen Termin beim Arzt vereinbaren, dann habe ich lange auf den Termin gewartet – ungefähr drei Monate. **_Als_** ich zum Arzt kam, musste ich zuerst meine e-card zeigen und ein Formular ausfüllen. Danach musste ich im Wartezimmer warten. Die Untersuchung und der Arztbesuch verliefen gut. Der Arzt hat die Beratung professionell durchgeführt. Der Arzt war sehr freundlich und hat mir alles gut erklärt. Ein wichtiger Nachteil ist, **_dass_** man lange auf einen Termin warten muss. Ein großer Vorteil ist, **_dass_** die Versicherung in Österreich gut funktioniert. Im Vergleich zu Österreich hat die Krankenversicherung in der Ukraine ziemlich schlecht funktioniert, **_deshalb_** musste man oft zu privaten Ärzten gehen.
+
+## **Bild 8**
+![[de_image_desc_7_01.jpg|500]]
+#### **Überblick.**
+Auf dem Bild sehe ich eine Gruppe von Menschen, die zusammen ein Fest feiern. Sie sitzen an einem großen Tisch, auf dem viele Speisen und Getränke stehen. Der Raum ist mit bunten Girlanden und Luftballons geschmückt, was zeigt, dass es sich um eine besondere Feier handelt – vielleicht einen Geburtstag oder ein Familienfest.
+#### **Personen.**  
+Am Tisch sitzen Männer und Frauen in festlicher Kleidung. Alle lächeln und unterhalten sich. Einige stoßen mit Gläsern an. Man spürt, dass sie gute Laune haben und den Moment genießen. Es scheint eine enge Gemeinschaft zu sein – vielleicht Familie oder gute Freunde.
+#### **Objekte.**  
+Auf dem Tisch stehen Teller, Gläser, Salate, Kuchen und Getränke. Außerdem sieht man Dekoration – bunte Luftballons, Kerzen und Servietten. Im Hintergrund hängt ein großes Plakat oder Banner, das vielleicht den Anlass des Festes zeigt.
+#### **Stimmung.**  
+Die Stimmung ist sehr fröhlich und herzlich. Alle Menschen wirken entspannt, glücklich und verbunden. Das Bild vermittelt ein Gefühl von Gemeinschaft und Freude. Es zeigt, dass Feste wichtig sind, um sich zu erholen und Abwechslung vom Alltag zu haben.
+#### **Eigene Erfahrungen.**  
+Ich feiere auch gern mit meiner Familie oder Freunden. Besonders an Weihnachten oder an meinem Geburtstag sitzen wir zusammen, essen, reden und lachen viel. Solche Feste sind für mich wichtig, weil sie den Zusammenhalt stärken und schöne Erinnerungen schaffen.
+
+**Antworten auf die Fragen zum Thema „Feste und Feiern“:**
+1. **Welche Feste sind für dich persönlich am wichtigsten und warum?**
+   Für mich ist Weihnachten das wichtigste Fest, weil ich es mit meiner Familie feiere. Es ist eine Zeit der Ruhe, Liebe und Dankbarkeit.
+2. **Wie unterscheiden sich die Feste in deiner Familie von denen in anderen Familien oder Kulturen?**  
+    In meiner Familie feiern wir viele Feste im kleinen Kreis. In anderen Kulturen gibt es oft größere Feste mit Musik, Tänzen und vielen Gästen.
+3. **Was bedeutet es für dich, gemeinsam mit Freunden oder Familie zu feiern?**  
+    Gemeinsam zu feiern bedeutet für mich Freude, Zusammenhalt und schöne Erinnerungen zu schaffen.
+4. **Welche Rolle spielen Traditionen bei Festen? Findest du Traditionen wichtig?**
+   Traditionen sind sehr wichtig, weil sie unsere Kultur und Werte bewahren. Sie geben einem Fest Tiefe und Bedeutung.
+5. **Wie hat sich deine Art zu feiern seit deiner Kindheit verändert?**  
+    Als Kind habe ich vor allem gespielt und mich über Geschenke gefreut. Heute ist für mich das Beisammensein mit Familie und Freunden wichtiger.
+6. **Welche Vor- und Nachteile haben große Feiern im Vergleich zu kleinen Feiern?**  
+    Große Feiern sind lebendiger, aber oft stressig. Kleine Feiern sind ruhiger und persönlicher.
+7. **Welche typischen Feste gibt es in deinem Land, und wie feiert man sie normalerweise?**  
+    In der Ukraine feiert man Weihnachten, Ostern und den Nationalfeiertag. Man trifft sich mit Familie, isst traditionelle Gerichte und singt Lieder.
+8. **Denkst du, dass Menschen auch ohne große Feiern glücklich sein können? Warum / warum nicht?**  
+    Ja, natürlich. Glück hängt nicht von der Größe des Festes ab, sondern von den Menschen, mit denen man es teilt.
+9. **Was war das schönste Fest, an dem du je teilgenommen hast, und warum war es besonders?**  
+    Das schönste Fest war meine Geburtstagsfeier mit Freunden. Es war gemütlich, voller Lachen und schöner Gespräche.
+10. **Sollte man alle Feste traditionell feiern, oder darf man sie modern verändern?**
+    Ich finde, man kann Traditionen bewahren und gleichzeitig modern feiern. Wichtig ist, dass die Bedeutung des Festes bleibt.
+
 
 ![[de/Deutsch/Exam/de_image_desc_8.jpg]]
 
