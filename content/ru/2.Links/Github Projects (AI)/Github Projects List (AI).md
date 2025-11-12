@@ -200,3 +200,25 @@ CLI-утилиты, редакторы, UI-builders, JSON-инструменты
 - **ArchiveBox** — [github.com/ArchiveBox/ArchiveBox](https://github.com/ArchiveBox/ArchiveBox) — автономный архиватор веб-страниц (self-hosted).
 - **Awesome LLM Apps** — [github.com/Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) — коллекция LLM-приложений и RAG-примеров.
 - **DRM Watch 3** — [github.com/drfailov/DRM_Watch_v3/tree/main](https://github.com/drfailov/DRM_Watch_v3/tree/main) — был в исходном списке (специфичный проект).
+
+[Awesome-World-Models](https://github.com/knightnemo/Awesome-World-Models) — Важные работы по теме _world modelling_, то есть тех исследований и приложений, где система учится «модели мира», чтобы предсказывать, симулировать или понимать окружающую среду.
+[Hugging Face Agents Course](https://github.com/huggingface/agents-course) — курс от Hugging Face, посвящённый созданию и применению «агентов» (AI-агентов) с использованием современных языковых моделей.
+[System Prompts](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) — Репозиторий представляет собой большую коллекцию системных подсказок (system prompts) и конфигураций моделей, извлечённых из множества коммерческих или полуоткрытых инструментов ИИ-агентов и редакторов кода.
+[Frappe Builder](https://github.com/frappe/builder) — визуальный «low-code» конструктор сайтов.
+[Cyberdesk](https://github.com/cyberdesk-hq/cyberdesk) — “open source virtual desktops for AI agents” (виртуальные десктопы с открытым исходным кодом, для ИИ-агентов)
+[Skyfall-GS](https://github.com/jayin92/Skyfall-GS)  — система, которая позволяет **извлекать трёхмерные городские сцены** из спутниковых изображений, с хорошей геометрией и текстурами, и делать их «исследуемыми»
+[Agent-S](https://github.com/simular-ai/Agent-S) — фреймворк с открытым исходным кодом, цель которого: позволить искусственным агентам **автономно взаимодействовать с компьютером** так, как это делает человек.
+[Android Code Studio](https://github.com/AndroidCSOfficial/android-code-studio) — IDE для Android-устройств, предназначенная для разработки полноценных Android-приложений прямо на устройстве.
+[BrowserOS](https://github.com/browseros-ai/BrowserOS) — это проект с открытым исходным кодом: форк Chromium, созданный организацией browseros‑ai, с целью интеграции ИИ-агентов непосредственно в браузерную среду.
+[ViMax](https://github.com/HKUDS/ViMax) — Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)
+[Microsoft Agent Lightning](https://github.com/microsoft/agent-lightning) — создан, чтобы **тренировать и оптимизировать существующих ИИ-агентов** — вне зависимости от того, на каком фреймворке они работают. Это значит, что ты не обязан с нуля переписывать своего агента, чтобы его улучшить.
+[JSON Crack](https://github.com/AykutSarac/jsoncrack.com) — Это открытое приложение-визуализатор данных, которое позволяет превращать структуры данных (JSON, YAML, XML, CSV и др.) в интерактивные графы и деревья.
+[Context7](https://github.com/upstash/context7) — Этот проект предоставляет сервер интерфейса по протоколу MCP (Model Context Protocol) — позволяет инструментам и ИИ-ассистентам получать **актуальную документацию и примеры кода** для библиотек и фреймворков.
+[OpenHealth - AI Health Assistant](https://github.com/OpenHealthForAll/open-health) — Это веб-приложение с открытым исходным кодом, которое помогает пользователю централизованно собирать и анализировать личные данные о здоровье
+[ART: Agent Reinforcement Trainer](https://github.com/OpenPipe/ART) — позволяет агентам на базе языковых моделей (LLM) **учиться на своём опыте** (ролл-аутах, многошаговых взаимодействиях) и становиться надёжнее и точнее.
+[bitwarden/clients: Bitwarden client apps](https://github.com/bitwarden/clients) — Репозиторий **Bitwarden / clients** содержит клиентские приложения для Bitwarden Password Manager: веб-интерфейс, расширения браузеров, десктоп-приложения и CLI (мобильные приложения вынесены в отдельные репозитории).
+[Step-Audio2](https://github.com/stepfun-ai/Step-Audio2) — Основная цель: объединить решение задач распознавания речи (ASR), понимания звуков/аудиоконтекста (включая паралингвистику, эмоции, стили голоса), генерации речи и диалоговых способностей агента.
+[InfiniteTalk](https://github.com/MeiGen-AI/InfiniteTalk) — InfiniteTalk позволяет генерировать **видео с «говорящими» персонажами** на основе аудиофайла + либо статического изображения либо видео-источника.
+[simstudioai/sim](https://github.com/simstudioai/sim) — Платформа визуального построения **агентных рабочих процессов** (agent workflows) — с drag-and-drop интерфейсом, узлами («blocks») и связями-потоками.
+[Carbon: Carbon is a modern ERP/MES/QMS](https://github.com/crbnos/carbon) — платформа для управления производственными процессами — включает в себя ERP (Enterprise Resource Planning), MES (Manufacturing Execution System), QMS (Quality Management System).
+

@@ -13,23 +13,29 @@ title: Habr
 5. [GRASP: почему настоящая архитектура начинается не с SOLID](https://habr.com/ru/articles/900140/)
 6. [Тренды в разработке программного обеспечения на 2025 год](https://habr.com/ru/articles/925584/)
 7. [Проектирование REST API: проблемы, решения, практические рекомендации](https://habr.com/ru/articles/946276/)
+8. [Внутреннее устройство Docker. Заглянем под капот / Хабр](https://habr.com/ru/articles/963702/?ch=1)
 #### 2. Python
 1. [Изучаем Python за 6 месяцев. Подробный план обучения](https://habr.com/ru/articles/709102/)
 2. [Решил перейти на Python и не пожалел](https://habr.com/ru/companies/ruvds/articles/930234/)
 3. [Изучаем Python: модуль pathlib для начинающих с домашним заданием](https://habr.com/ru/articles/960440/)
 4. [Python для преподавателя: как я использую код, чтобы автоматизировать работу](https://habr.com/ru/articles/900728/)
+5. [Асинхронный Python: руководство для начинающих с практическим заданием / Хабр](https://habr.com/ru/articles/958956/)
+6. [Топ-5 библиотек Python, которые должен знать каждый новичок / Хабр](https://habr.com/ru/articles/954630/)
+7. [5 библиотек Python, которые выведут вас на новый уровень. Часть 2 / Хабр](https://habr.com/ru/articles/961550/)
+8. [Особенности Python, о которых вас точно спросят на техническом собеседовании / Хабр](https://habr.com/ru/companies/yandex_praktikum/articles/940622/)
+9. [Особенности Python, о которых вас точно спросят на техническом собеседовании. Часть 2 / Хабр](https://habr.com/ru/companies/yandex_praktikum/articles/960812/?ch=1)
+10. 
 #### 3. Java
 1. [Дорожная карта Java backend-разработчика: c Junior до Middle](https://habr.com/ru/companies/ruvds/articles/949170/)
 	1. [Learn to become a modern Java developer](https://roadmap.sh/java)
-2. 
+2. [Kafka или REST для взаимодействия между микросервисами? / Хабр](https://habr.com/ru/companies/otus/articles/958840/?ch=1) 
+3. [Kafka для начинающих: работа с брокером сообщений на практике](https://habr.com/ru/articles/958450/)
 #### 4. Spring Framework
 1. [Конфигурация Spring Security на пальцах](https://habr.com/ru/companies/spring_aio/articles/935470/)
 2. [Архитектурные принципы Spring Security. Часть 1](https://habr.com/ru/companies/spring_aio/articles/909596/)
 3. [Архитектурные принципы Spring Security. Часть 2](https://habr.com/ru/companies/spring_aio/articles/911862/)
 4. [Spring Security для начинающих: конспект от аутентификации до JWT](https://habr.com/ru/articles/946912/)
 5. [Как должен выглядеть правильный Docker Image для Spring Boot приложения?](https://habr.com/ru/companies/spring_aio/articles/901302/)
-
-
 ### AI
 #### 1. Common
 1. [ИИ для «чайников»](https://habr.com/ru/articles/930140/)
@@ -47,6 +53,18 @@ title: Habr
 8. [OLMo: (Миниатюрная) Открытая Языковая Модель](https://habr.com/ru/companies/bar/articles/906500/)
 9. [Finetuning без греха: как кастомизировать AI и не сломать его](https://habr.com/ru/companies/cloud_ru/articles/949234/)
 10. [Модель человеческого интеллекта. Часть 1: элементы памяти и убеждения](https://habr.com/ru/articles/899320/)
+11. [Выбираем векторную БД для AI-агентов и RAG: большой обзор баз данных и поиск смысла / Хабр](https://habr.com/ru/articles/961088/)
+12. [Децентрализованный ИИ: как рой нейросетей побеждает большие модели / Хабр](https://habr.com/ru/articles/962884/?ch=1)
+13. [Домашняя векторная БД + RAG / Хабр](https://habr.com/ru/articles/963278/?ch=1)
+14. [Как мы автоматизировали код-ревью благодаря связке Aider + LLM / Хабр](https://habr.com/ru/companies/fix_price/articles/963658/)
+15. [Основы аналитики и ML простым языком ч.1 / Хабр](https://habr.com/ru/articles/963522/?ch=1)
+16. [Поговорим о продвинутых техниках NLP / Хабр](https://habr.com/ru/companies/otus/articles/958844/)
+17. [Маршрутизация LLM: оптимизация путей обработки языка / Хабр](https://habr.com/ru/articles/963700/)
+18. [Мой подход к обучению. ИИ-ментор / Хабр](https://habr.com/ru/articles/962426/)
+19. [Вышла новая масштабная мультимодальная world-модель / Хабр](https://habr.com/ru/companies/bothub/news/961792/)\
+20. [Большое сравнение архитектур LLM / Хабр](https://habr.com/ru/articles/958880/)
+21. [Не только трансформеры: за пределами стандартных архитектур LLM / Хабр](https://habr.com/ru/articles/964658/)
+22. [Как сделать видео с нейросетями: простой гайд от идеи до финального ролика через ChatGPT / Хабр](https://habr.com/ru/articles/964566/)
 #### 2. Prompts
 1. [8 способов проверить, что нейросеть уверенно вам врёт](https://habr.com/ru/articles/927974/)
 2. [Промптинг и суеверия. Что (не) надо добавлять к запросу в ChatGPT](https://habr.com/ru/articles/946816/)
@@ -69,9 +87,12 @@ title: Habr
 10. [PDF ожил: Stanford превратил научные статьи в говорящих AI-ассистентов](https://habr.com/ru/companies/bothub/news/948668/)
 11. [Обратная сторона ИИ: подводные камни передачи процессов нейросетям](https://habr.com/ru/articles/949248/)
 12. [Нейросеть GenCAD превращает картинки в CAD-модели - 4PDA](https://4pda.to/2025/07/22/444809/nejroset_gencad_prevraschaet_kartinki_v_cad_modeli/)
-13. [Kafka для начинающих: работа с брокером сообщений на практике](https://habr.com/ru/articles/958450/)
-
-
+13. [Codex: как много в этом звуке. Агент-разработчик от openai который входит в вашу подписку на ChatGPT за 20$ / Хабр](https://habr.com/ru/articles/958886/)
+14. [GPT как основа low‑code‑платформ: разработка без программистов / Хабр](https://habr.com/ru/articles/965322/)
+15. [Вайбкодинг: почему знания важнее инструментов / Хабр](https://habr.com/ru/articles/964324/)
+16. 
+17. [Интенсивный курс «AI-агенты» от Google День 1 / Хабр](https://habr.com/ru/articles/964888/)
+18. 
 ### Other
 1. [Автоматизация для всех: как n8n революционизирует рабочие процессы в бизнесе](https://habr.com/ru/articles/928038/)
 2. [15 команд Git, которые покрывают 90% повседневной работы разработчика](https://habr.com/ru/articles/905658/)
