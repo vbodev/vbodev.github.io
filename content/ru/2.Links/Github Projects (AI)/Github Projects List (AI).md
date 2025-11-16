@@ -169,13 +169,14 @@ CLI-утилиты, редакторы, UI-builders, JSON-инструменты
 
 Системы и платформы для бизнеса, ERP, MES, торговли и интеграции.
 
-| Название          | Ссылка                                                                   | Коротко                                        |
-| ----------------- | ------------------------------------------------------------------------ | ---------------------------------------------- |
-| ERPNext           | [github.com/frappe/erpnext](https://github.com/frappe/erpnext)           | Open source ERP.                               |
-| Carbon            | [github.com/crbnos/carbon](https://github.com/crbnos/carbon)             | ERP/MES/QMS для производства.                  |
-| Airbyte (повтор)  | [github.com/airbytehq/airbyte](https://github.com/airbytehq/airbyte)     | ETL для бизнес-интеграций.                     |
-| Spree (eCommerce) | [github.com/spree/spree](https://github.com/spree/spree)                 | eCommerce платформа.                           |
-| Freqtrade         | [github.com/freqtrade/freqtrade](https://github.com/freqtrade/freqtrade) | open-source крипто-трейдинг-бот (algo trading) |
+| Название          | Ссылка                                                                   | Коротко                                                                                                                                                                            |
+| ----------------- | ------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ERPNext           | [github.com/frappe/erpnext](https://github.com/frappe/erpnext)           | Open source ERP.                                                                                                                                                                   |
+| Carbon            | [github.com/crbnos/carbon](https://github.com/crbnos/carbon)             | ERP/MES/QMS для производства.                                                                                                                                                      |
+| Airbyte (повтор)  | [github.com/airbytehq/airbyte](https://github.com/airbytehq/airbyte)     | ETL для бизнес-интеграций.                                                                                                                                                         |
+| Spree (eCommerce) | [github.com/spree/spree](https://github.com/spree/spree)                 | eCommerce платформа.                                                                                                                                                               |
+| Freqtrade         | [github.com/freqtrade/freqtrade](https://github.com/freqtrade/freqtrade) | open-source крипто-трейдинг-бот (algo trading)                                                                                                                                     |
+| Carbon            | [github.com/crbnos/carbon](https://github.com/crbnos/carbon)             | платформа для управления производственными процессами — включает в себя ERP (Enterprise Resource Planning), MES (Manufacturing Execution System), QMS (Quality Management System). |
 ## 12. Экспериментальные / исследовательские проекты & ML-platforms
 
 Исследования, ускорение численных вычислений, модели и инфраструктура для экспертов.
@@ -217,8 +218,11 @@ CLI-утилиты, редакторы, UI-builders, JSON-инструменты
 [OpenHealth - AI Health Assistant](https://github.com/OpenHealthForAll/open-health) — Это веб-приложение с открытым исходным кодом, которое помогает пользователю централизованно собирать и анализировать личные данные о здоровье
 [ART: Agent Reinforcement Trainer](https://github.com/OpenPipe/ART) — позволяет агентам на базе языковых моделей (LLM) **учиться на своём опыте** (ролл-аутах, многошаговых взаимодействиях) и становиться надёжнее и точнее.
 [bitwarden/clients: Bitwarden client apps](https://github.com/bitwarden/clients) — Репозиторий **Bitwarden / clients** содержит клиентские приложения для Bitwarden Password Manager: веб-интерфейс, расширения браузеров, десктоп-приложения и CLI (мобильные приложения вынесены в отдельные репозитории).
+
+[simstudioai/sim](https://github.com/simstudioai/sim) — Платформа визуального построения **агентных рабочих процессов** (agent workflows) — с drag-and-drop интерфейсом, узлами («blocks») и связями-потоками.
+
 [Step-Audio2](https://github.com/stepfun-ai/Step-Audio2) — Основная цель: объединить решение задач распознавания речи (ASR), понимания звуков/аудиоконтекста (включая паралингвистику, эмоции, стили голоса), генерации речи и диалоговых способностей агента.
 [InfiniteTalk](https://github.com/MeiGen-AI/InfiniteTalk) — InfiniteTalk позволяет генерировать **видео с «говорящими» персонажами** на основе аудиофайла + либо статического изображения либо видео-источника.
-[simstudioai/sim](https://github.com/simstudioai/sim) — Платформа визуального построения **агентных рабочих процессов** (agent workflows) — с drag-and-drop интерфейсом, узлами («blocks») и связями-потоками.
-[Carbon: Carbon is a modern ERP/MES/QMS](https://github.com/crbnos/carbon) — платформа для управления производственными процессами — включает в себя ERP (Enterprise Resource Planning), MES (Manufacturing Execution System), QMS (Quality Management System).
+
+
 
