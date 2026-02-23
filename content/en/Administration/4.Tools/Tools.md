@@ -1,7 +1,7 @@
 ---
 title: Tools
 ---
-[[1.IP-Addresses|RU]] | [[en/Administration/Networking/1.IP-Addresses|EN]] | [[de/Administration/Networking/1.IP-Addresses| DE]]
+[[Tools|RU]] | [[en/Administration/4.Tools/Tools|EN]] | [[de/Administration/4.Tools/Tools|DE]]
 
 ## NextCloud
 
