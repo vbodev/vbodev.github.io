@@ -3,6 +3,10 @@ title: Tools
 ---
 [[1.IP-Addresses|RU]] | [[en/Administration/Networking/1.IP-Addresses|EN]] | [[de/Administration/Networking/1.IP-Addresses| DE]]
 
+## Foreman
+
+
+
 ## NextCloud
 
 Nextcloud — это **самостоятельно разворачиваемая (self-hosted) платформа** для хранения и совместной работы с файлами, аналогичная Google Drive/Dropbox, но **под вашим контролем**.
@@ -13,6 +17,9 @@ Nextcloud — это **самостоятельно разворачиваема
 - **Доступ с ПК и телефона**: веб-интерфейс + клиенты для Windows/Linux/macOS/Android/iOS.
 - **Безопасность и управление**: пользователи/группы, права, аудит, шифрование (зависит от настроек), 2FA.
 Ключевая идея: **ваш собственный “облако-сервер”** на вашем сервере/VPS/доме, где данные остаются у вас, а не у публичного провайдера.
+## Nexus Repository
+
+
 ## Opnsense
 
 OPNsense — это **open-source firewall и маршрутизатор** (FreeBSD-based), который ставят на сервер/мини-ПК или виртуальную машину, чтобы управлять сетью.
