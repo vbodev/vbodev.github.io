@@ -1,7 +1,7 @@
 ---
 title: Tools
 ---
-[[1.IP-Addresses|RU]] | [[en/Administration/Networking/1.IP-Addresses|EN]] | [[de/Administration/Networking/1.IP-Addresses| DE]]
+[[ru/Administration/4.Tools/Tools|RU]] | [[en/Administration/Networking/1.IP-Addresses|EN]] | [[de/Administration/Networking/1.IP-Addresses| DE]]
 
 ## Foreman
 

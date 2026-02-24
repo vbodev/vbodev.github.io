@@ -1,7 +1,7 @@
 ---
 title: Tools
 ---
-[[Tools|RU]] | [[en/Administration/4.Tools/Tools|EN]] | [[de/Administration/4.Tools/Tools|DE]]
+[[ru/Administration/4.Tools/Tools|RU]] | [[en/Administration/4.Tools/Tools|EN]] | [[de/Administration/4.Tools/Tools|DE]]
 
 ## NextCloud
 
