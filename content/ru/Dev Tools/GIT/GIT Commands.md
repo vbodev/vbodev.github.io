@@ -1,9 +1,9 @@
 ---
 title: GIT Commands
+tags: [git, commands]
 ---
 [[ru/Dev Tools/GIT/GIT Commands|RU]] | [[en/Dev Tools/GIT/GIT Commands|EN]] | [[de/Dev Tools/GIT/GIT Commands|DE]]
 
-#git #commands 
 
 | **Command**                                                                                                                                                                 | **Description**                                                           |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |

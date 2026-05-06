@@ -1,8 +1,8 @@
 ---
 title: Habr
+tags: [habr, links]
 ---
 
-#habr #links
 ### Entwicklung (Development)
 
 #### 1. Allgemein (Common)

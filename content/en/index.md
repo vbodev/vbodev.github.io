@@ -12,7 +12,7 @@ It serves both as internal documentation and as a structured resource for contin
 - **Development Languages**
 - **Development Methodology**
 - **Development Tools**
-- **Github Projects (AI)** 
+- **GitHub Projects (AI)** 
 - **Private**
 ## Purpose
 

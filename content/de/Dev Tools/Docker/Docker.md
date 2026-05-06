@@ -1,7 +1,7 @@
 ---
 title: "Docker"
 ---
-[[ru/Development Tools/GIT/Docker|RU]] | [[en/Development Tools/GIT/Docker|EN]] | [[de/Development Tools/GIT/Docker|DE]]
+[[ru/Dev Tools/Docker/Docker|RU]] | [[en/Dev Tools/Docker/Docker|EN]] | [[de/Dev Tools/Docker/Docker|DE]]
 ## 1) Grundbegriffe
 
 - **Image (Abbild)** – Vorlage des Dateisystems + Metadaten. Geschichtete Struktur (Union-FS).

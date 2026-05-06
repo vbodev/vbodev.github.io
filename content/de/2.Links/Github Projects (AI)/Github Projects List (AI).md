@@ -1,8 +1,8 @@
 ---
-title: Github Projects List (AI)
+title: GitHub Projects List (AI)
+tags: [git, github, projects]
 ---
 
-#git #github #projects
 
 ## 1. LLM / Agent infrastructure
 

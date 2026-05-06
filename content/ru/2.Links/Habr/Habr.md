@@ -1,8 +1,8 @@
 ---
 title: Habr
+tags: [habr, links]
 ---
 
-#habr #links
 ### Development
 
 #### 1. Common

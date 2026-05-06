@@ -12,7 +12,7 @@ Sie dient sowohl als interne Dokumentation als auch als strukturierte Ressource 
 - **Programmiersprachen**
 - **Entwicklungsmethodik**
 - **Entwicklungstools**
-- **Github-Projekte (KI)**
+- **GitHub-Projekte (KI)**
 - **Privat**
 ## Purpose
 

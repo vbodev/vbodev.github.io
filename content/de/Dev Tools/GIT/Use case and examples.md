@@ -1,7 +1,7 @@
 ---
 title: Use case and examples
 ---
-[[ru/Dev Tools/GIT/Use case and examples|RU]] | [[en/Dev Tools/GIT/Use case and examples|EN]] | [[de/Development Tools/GIT/Use case and examples|DE|[[ru/Dev Tools/GIT/Use case and examples|RU]] | [[en/Dev Tools/GIT/Use case and examples|EN]] | [[de/Dev Tools/GIT/Use case and examples|DE]]]]
+[[ru/Dev Tools/GIT/Use case and examples|RU]] | [[en/Dev Tools/GIT/Use case and examples|EN]] | [[de/Dev Tools/GIT/Use case and examples|DE]]
 ## Szenario der Nutzung
 ### 1. Aufgaben im System
 In Jira oder GitHub Projects werden Aufgaben erstellt:
