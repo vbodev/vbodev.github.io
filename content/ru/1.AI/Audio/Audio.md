@@ -1,9 +1,9 @@
 ---
 title: "Audio"
+tags: [ai, audio, python, whisper]
 ---
-[[Audio|RU]] | [[en/AI/Audio/Audio|EN]] | [[de//AI/Audio/Audio|DE]]
+[[ru/1.AI/Audio/Audio|RU]] | [[en/1.AI/Audio/Audio|EN]] | [[de/1.AI/Audio/Audio|DE]]
 
-#ai #audio #python #whisper 
 ## 🧠 1. **OpenAI Whisper (оригинал)**
 
 **Язык:** Python  
